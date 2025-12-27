@@ -1,0 +1,128 @@
+(footprint "Screw_Hole-Single_Wing"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea36bc2d-d245-42f8-bc6b-313eff9c3a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Screw_Hole-Single_Wing"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11e50005-e3a1-413e-be08-dfef27cf0ee5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac36f145-0145-4714-824f-3bda21860fc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc9a6248-0798-448b-9eae-67cb264f085e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -0.635)
+		(end -3.5 0.635)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8d137463-ee09-47c1-880f-46985de9cd32")
+	)
+	(fp_line
+		(start -3.5 -0.635)
+		(end -2.42 -0.635)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2e9ef28c-55f8-457f-8112-5ed79000eef5")
+	)
+	(fp_line
+		(start -3.5 0.635)
+		(end -2.42 0.635)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0eea4f2c-2aea-4042-9015-cb8a108861b0")
+	)
+	(fp_arc
+		(start -2.42 -0.635)
+		(mid 2.501924 0)
+		(end -2.42 0.635)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7d9fe898-60eb-41dd-a66b-5731ca4b5da3")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start -2.42 -0.635)
+				(mid 2.501924 0)
+				(end -2.42 0.635)
+			)
+			(xy -3.5 0.635) (xy -3.5 -0.635)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "13a8d4f3-0787-43fb-ae0c-4c730ff5ae87")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9b02ecc0-b580-44ef-90bb-ac0178a9c7b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
