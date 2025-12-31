@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "50d953a2-6718-4be1-9081-ca3a25003671")
+	(uuid "9973b886-eb81-4708-bf64-796b7c72c9eb")
 	(paper "A4")
 	(lib_symbols)
 	(wire
@@ -760,6 +760,17 @@
 		)
 		(uuid "229384f4-6c40-4b35-9108-36f645b97eb0")
 	)
+	(hierarchical_label "DOUT_Row0"
+		(shape output)
+		(at 171.45 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "313f4e98-9dfe-4122-a523-d6538d92aa1c")
+	)
 	(hierarchical_label "Row2"
 		(shape passive)
 		(at 134.62 92.71 180)
@@ -770,6 +781,17 @@
 			(justify right)
 		)
 		(uuid "35e15819-2e42-4a4d-ab4d-83bea9a37784")
+	)
+	(hierarchical_label "DOUT_Row4"
+		(shape output)
+		(at 153.67 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e1cea85-58b7-4ee9-a1d3-4902f3457a25")
 	)
 	(hierarchical_label "Col15"
 		(shape passive)
@@ -814,6 +836,17 @@
 			(justify left)
 		)
 		(uuid "66f854ff-5c0e-4248-9b57-9439ba669edb")
+	)
+	(hierarchical_label "DIN_Row1"
+		(shape input)
+		(at 118.11 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68929b5d-f086-44c2-9f32-1170fe30e84b")
 	)
 	(hierarchical_label "Row0"
 		(shape passive)
@@ -903,6 +936,17 @@
 		)
 		(uuid "a550e2c9-8108-4e52-9162-9eedee81425b")
 	)
+	(hierarchical_label "DIN_Row0"
+		(shape input)
+		(at 118.11 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7d04df7-705b-4170-a32c-f64d995f053c")
+	)
 	(hierarchical_label "Row2"
 		(shape passive)
 		(at 170.18 92.71 180)
@@ -924,6 +968,17 @@
 			(justify left)
 		)
 		(uuid "b4d6161c-e027-4e3b-8516-691d3e91673a")
+	)
+	(hierarchical_label "DOUT_Row1"
+		(shape output)
+		(at 171.45 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1cf6c5f-bad3-4896-a2a3-d2348aaba5ca")
 	)
 	(hierarchical_label "Row1"
 		(shape passive)
@@ -969,6 +1024,39 @@
 		)
 		(uuid "d58255ac-0023-4224-9f89-4ef703642a0b")
 	)
+	(hierarchical_label "DIN_Row4"
+		(shape input)
+		(at 135.89 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc4563b5-2387-4376-86a9-9242bde0eda6")
+	)
+	(hierarchical_label "DOUT_Row2"
+		(shape output)
+		(at 171.45 87.6392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e00bf957-41dc-4722-8630-06152420fa02")
+	)
+	(hierarchical_label "DIN_Row5"
+		(shape input)
+		(at 118.11 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2908b7f-7161-4405-b909-b61c02363fdb")
+	)
 	(hierarchical_label "Row1"
 		(shape passive)
 		(at 152.4 78.74 180)
@@ -980,6 +1068,17 @@
 		)
 		(uuid "eaced3dd-cfb6-402a-88b0-c6a872ce55ab")
 	)
+	(hierarchical_label "DOUT_Row5"
+		(shape output)
+		(at 171.45 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ead66570-c592-4010-a100-b48d40f446fa")
+	)
 	(hierarchical_label "Row2"
 		(shape passive)
 		(at 152.4 92.71 180)
@@ -990,6 +1089,17 @@
 			(justify right)
 		)
 		(uuid "f698a90c-a720-4019-bc68-8be52e9406da")
+	)
+	(hierarchical_label "DIN_Row2"
+		(shape input)
+		(at 118.11 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "faad7300-1daf-40d9-a264-f69e86b1ba82")
 	)
 	(sheet
 		(at 120.65 52.07)

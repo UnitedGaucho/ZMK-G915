@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ace8bd6b-7351-4933-83ab-830c9e752f8e")
+	(uuid "61007514-8ee9-4d93-bcbe-ed76de1ac2da")
 	(paper "A4")
 	(lib_symbols)
 	(wire
@@ -819,6 +819,17 @@
 		)
 		(uuid "8eb9d8ab-c360-4ead-a7bb-2b1b77891de6")
 	)
+	(hierarchical_label "DIN_Row0"
+		(shape input)
+		(at 33.02 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3187ec6-52ca-4dee-a219-a6ae5c86bbb5")
+	)
 	(hierarchical_label "Col08"
 		(shape passive)
 		(at 158.75 111.76 0)
@@ -928,6 +939,17 @@
 			(justify left)
 		)
 		(uuid "e587b344-40e2-4cae-81b5-328dcdfecc88")
+	)
+	(hierarchical_label "DOUT_Row0"
+		(shape output)
+		(at 264.16 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e591c137-b70d-464e-8136-1c765382d5dc")
 	)
 	(hierarchical_label "Row0"
 		(shape passive)
