@@ -69,16 +69,20 @@
         "copper_edge_clearance": "ignore",
         "copper_sliver": "ignore",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -88,9 +92,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -102,10 +108,13 @@
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -118,6 +127,7 @@
         "min_clearance": 0.127,
         "min_connection": 0.15,
         "min_copper_edge_clearance": 0.0,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -137,10 +147,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -240,6 +251,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -434,10 +446,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -450,9 +467,15 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "error",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -465,8 +488,8 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Keyboard_60%.kicad_pro",
-    "version": 1
+    "filename": "zmk-g915.kicad_pro",
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -481,6 +504,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.6,
@@ -498,6 +522,7 @@
         "microvia_drill": 0.1,
         "name": "Antenna",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.6,
@@ -506,7 +531,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -533,6 +558,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -586,6 +612,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -620,6 +647,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "Plots/",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -641,6 +669,514 @@
     [
       "45c5f3d6-3be9-46e6-9c92-280cf0e0d840",
       "switch_matrix"
+    ],
+    [
+      "f34c0934-0965-4e90-b930-14c9842a7155",
+      "key_rgb"
+    ],
+    [
+      "40b62a70-a1b7-498e-868e-000a7b1e9f09",
+      "core"
+    ],
+    [
+      "bea8e0d4-76e7-4b66-a500-16cb3e7deb71",
+      "function"
+    ],
+    [
+      "fcdd3761-84fb-400d-9494-9913e88fadd8",
+      "mediaMacroOther"
+    ],
+    [
+      "597f416c-f394-4b3f-9015-da1fb9a5aab7",
+      "numpad"
+    ],
+    [
+      "10f9cc0e-b97e-4623-97c7-5ab1e0fd00f4",
+      "navCluster"
+    ],
+    [
+      "3dcbcb4f-87b9-46bc-9465-29513bb6a610",
+      "K_ESC"
+    ],
+    [
+      "5ff98178-65e0-42ed-9293-cc0c9d8a064c",
+      "K_F1"
+    ],
+    [
+      "e43fed85-9def-49d6-8951-0e9942e7f024",
+      "K_F2"
+    ],
+    [
+      "9652278c-5be5-4eb3-8c3d-671de3112780",
+      "K_F3"
+    ],
+    [
+      "cb31c534-8661-4bf6-b442-7982d9f8a172",
+      "K_F4"
+    ],
+    [
+      "f4dcb290-e680-4305-968e-22211a749524",
+      "K_F5"
+    ],
+    [
+      "66a6f78c-c412-4f2b-bc0c-da418d94daa6",
+      "K_F6"
+    ],
+    [
+      "79bd6058-99e0-4b94-840e-69ee9d90a25d",
+      "K_F7"
+    ],
+    [
+      "bac756b3-963f-41d5-ba9e-44accc0df49e",
+      "K_F8"
+    ],
+    [
+      "6d1c25a1-987d-4bdd-a4da-e19686a174cb",
+      "K_F9"
+    ],
+    [
+      "d4267ee5-d453-415c-844f-6ae0c68662b9",
+      "K_F10"
+    ],
+    [
+      "bcddf06b-bd2a-40c7-a40d-d1a608b3043d",
+      "K_F11"
+    ],
+    [
+      "faefe258-ac4a-473d-af5a-1fb4db0613fc",
+      "K_F12"
+    ],
+    [
+      "1e4d1461-b179-4d8c-b35c-c659399bb3a9",
+      "K_PRTSC"
+    ],
+    [
+      "6780271e-5dcc-448e-9782-164f5274e280",
+      "K_SCRLK"
+    ],
+    [
+      "669b1354-fcdf-402f-82b8-535d3492cdb7",
+      "K_PAUSE"
+    ],
+    [
+      "6e4322cb-a470-4010-b8a3-c1a93e7ab659",
+      "K_INS"
+    ],
+    [
+      "32b40871-9664-4739-bce2-f12f5e57887b",
+      "K_HOME"
+    ],
+    [
+      "f23b7c4e-c9d6-41eb-9519-77b3c442dbbd",
+      "K_PGUP"
+    ],
+    [
+      "c8560fae-1f1b-4bd7-9ade-908f414dcfe3",
+      "K_DEL"
+    ],
+    [
+      "686f6522-a504-48dc-8a97-973fe78d5351",
+      "K_END"
+    ],
+    [
+      "54c58db0-a12a-4c33-b9ed-3a147685c8a4",
+      "K_PGDN"
+    ],
+    [
+      "3a4635cb-de5e-4d8b-8105-8cee188c06d4",
+      "K_npNUM"
+    ],
+    [
+      "15e90a78-c396-460e-953b-a03ba9b55fb2",
+      "K_npSlash"
+    ],
+    [
+      "e9d20428-0587-48c2-8bd0-dc4a8006d11d",
+      "K_npAsterisk"
+    ],
+    [
+      "54ee3d85-ec57-4bb6-bcf0-db16dfb0a010",
+      "K_npMinus"
+    ],
+    [
+      "31ab09a0-3636-47c5-a308-102b5bd9f412",
+      "K_np7"
+    ],
+    [
+      "6c1ad35a-38d5-413b-8d21-a6396f1068ae",
+      "K_np8"
+    ],
+    [
+      "273ab569-bed5-47a5-83e6-67da9e73093e",
+      "K_np9"
+    ],
+    [
+      "ac9b828b-8b0a-4d4d-9d4f-83f4d6902eda",
+      "K_np4"
+    ],
+    [
+      "7da9534d-8753-4f38-8ed2-27c3777104e8",
+      "K_G1"
+    ],
+    [
+      "93a863b5-3f53-4821-a54e-2cf057958b18",
+      "K_G2"
+    ],
+    [
+      "a463a1dc-e7c1-4e21-9be8-49c9395e9245",
+      "K_G3"
+    ],
+    [
+      "d87da457-679f-4543-a389-f91939e710d8",
+      "K_G4"
+    ],
+    [
+      "ecfd9564-620f-4452-8c0f-95ee9f081d48",
+      "K_np0"
+    ],
+    [
+      "8f7115b3-48f4-46a0-aa75-c1fde061abe5",
+      "K_npDecimal"
+    ],
+    [
+      "e48923d8-36c8-401f-8912-379de7b19f11",
+      "K_npEnter"
+    ],
+    [
+      "6e2699cd-96e6-4f9d-841e-d8b9fa832199",
+      "K_G5"
+    ],
+    [
+      "b0706b04-154c-4d54-b760-485986a76847",
+      "K_Space"
+    ],
+    [
+      "eeb03791-ed75-4fd4-a56e-14b7b1588c52",
+      "K_LALT"
+    ],
+    [
+      "ec40862b-f700-413d-badf-52fd76f40d17",
+      "K_M1"
+    ],
+    [
+      "3d0e730d-9f82-4c7a-9d82-d320e536cbc5",
+      "K_M2"
+    ],
+    [
+      "1fb93641-079e-4cc2-b4eb-8e6e24f0af43",
+      "K_M3"
+    ],
+    [
+      "fc8b61ec-3f89-4745-bcef-763e5be9bf87",
+      "K_MR"
+    ],
+    [
+      "e807975b-19a5-4d03-8e57-60dbb3442790",
+      "K_Bluetooth"
+    ],
+    [
+      "4fdd796f-0160-40fa-9a06-708a3193f6c5",
+      "K_Wireless"
+    ],
+    [
+      "446f2d1a-e115-4159-ac70-afd299064a47",
+      "K_GameMode"
+    ],
+    [
+      "20bfd097-6315-4743-8d4f-26c1c7b251bf",
+      "K_A"
+    ],
+    [
+      "9d5d5833-2c23-4956-9082-c9bc73f24264",
+      "K_Q"
+    ],
+    [
+      "8ea5dad9-baa7-437a-a305-72d6ec7a96b0",
+      "K_1"
+    ],
+    [
+      "2ed984f7-19db-416c-9fe1-3248e67d73af",
+      "K_2"
+    ],
+    [
+      "b8d98f82-3611-4ee1-a16e-65324b7df623",
+      "K_3"
+    ],
+    [
+      "e62bca05-34fa-4563-8e5d-92d13fcbfe43",
+      "K_4"
+    ],
+    [
+      "0ca85e6c-c8bd-4883-8a85-a4ec14c4b896",
+      "K_5"
+    ],
+    [
+      "23b33ed1-3e70-48e8-ae78-c1214b291757",
+      "K_6"
+    ],
+    [
+      "9531a726-7dc6-4237-9ff8-a5b2fcf0ff0d",
+      "K_7"
+    ],
+    [
+      "58136aad-5487-4aba-b1ba-df3bbb3e96dc",
+      "K_I"
+    ],
+    [
+      "d4eb722f-9e1c-4397-8bae-1366447da679",
+      "K_9"
+    ],
+    [
+      "f2fcc6e7-0e89-498f-b097-ac514d7cbd74",
+      "K_Semicolon"
+    ],
+    [
+      "b11c3579-68eb-4e29-bdea-125e2711cc31",
+      "K_Minus"
+    ],
+    [
+      "f25a9534-7cf4-4b66-8bb3-e96dbdbff7de",
+      "K_Apostrophe"
+    ],
+    [
+      "eb77a60d-d60d-4b2e-87ba-91d3fd8b9fac",
+      "K_Tilde"
+    ],
+    [
+      "f5d10a40-5234-4add-a780-483eead1fad5",
+      "K_W"
+    ],
+    [
+      "9b1b95b9-88a9-4ed2-b2c3-28fd0835f4b9",
+      "K_E"
+    ],
+    [
+      "a3baf9f4-5862-4b00-ade0-a6b78ff8d31d",
+      "K_R"
+    ],
+    [
+      "ab1672d1-9fbe-4f48-a786-6748523c7f89",
+      "K_T"
+    ],
+    [
+      "4821b134-04ff-4781-9e0e-b8e38317ee00",
+      "K_Y"
+    ],
+    [
+      "b8afd2fe-3c9a-4357-b2bf-95c242df24b7",
+      "K_UP"
+    ],
+    [
+      "5947dc26-0f55-43e4-8790-cc200ee0bb46",
+      "K_8"
+    ],
+    [
+      "20a3096c-bb8d-4fac-a782-c6c794e5bd87",
+      "K_U"
+    ],
+    [
+      "126a5e03-776f-4608-baea-cf15d7239d74",
+      "K_0"
+    ],
+    [
+      "3bccff59-afbb-4bbf-b114-80b55cf9beb8",
+      "K_O"
+    ],
+    [
+      "cdefbc58-baf6-4c41-8534-ed27f4bfff93",
+      "K_Equals"
+    ],
+    [
+      "22800c99-8e7f-4d8e-977a-02a751499605",
+      "K_LBracket"
+    ],
+    [
+      "8ed94837-60d2-4bd9-9ffb-16b95d0f785a",
+      "K_Backspace"
+    ],
+    [
+      "f525c7de-c0a5-41fa-90f4-3228004c5f39",
+      "K_TABS"
+    ],
+    [
+      "cc3a8bcc-b5db-4e0e-870e-287957a579a6",
+      "K_S"
+    ],
+    [
+      "6fa80e73-2ee0-4b4f-b4ab-aa35a8fb80f6",
+      "K_D"
+    ],
+    [
+      "6cd86ba0-1545-454f-8fcf-79e55ff85570",
+      "K_F"
+    ],
+    [
+      "a0d2b569-601f-4f18-8024-f707493ad32e",
+      "K_G"
+    ],
+    [
+      "6fcf4083-559f-458b-be0e-b5efc8193825",
+      "K_H"
+    ],
+    [
+      "a368a553-df5e-4591-9fdd-1e964332fa0b",
+      "K_J"
+    ],
+    [
+      "834ffaaf-1f37-4751-a457-7e06632f5cd9",
+      "K_K"
+    ],
+    [
+      "7ce0a19e-b9e5-4c58-9a18-663b776c7540",
+      "K_L"
+    ],
+    [
+      "22472071-b716-4a9f-8f03-0a58de68bae1",
+      "K_P"
+    ],
+    [
+      "bdde9c5f-3908-47bc-9715-48c50cf3b418",
+      "K_M"
+    ],
+    [
+      "98ac1894-40a8-476f-a63e-1287bcf32088",
+      "K_RBracket"
+    ],
+    [
+      "43b37d44-1b82-4d19-a2cf-83859be654fd",
+      "K_Backslash"
+    ],
+    [
+      "77641927-1f65-42a1-ae04-89f00c1bd1aa",
+      "K_CAPS"
+    ],
+    [
+      "d238842b-4ab0-46cf-ae3f-eb1a430d0fbd",
+      "K_LSHIFT"
+    ],
+    [
+      "9886ec48-cad9-4228-bb8d-4fc240cbb8d6",
+      "K_Z"
+    ],
+    [
+      "c897dfaf-e55b-4ac2-b64c-e1075dbd6955",
+      "K_X"
+    ],
+    [
+      "fa8c7938-8e85-4a4b-8a73-9a831ec060b0",
+      "K_C"
+    ],
+    [
+      "c81d8ca7-c2c2-41f8-b3fa-cd8b24429a95",
+      "K_V"
+    ],
+    [
+      "e84b907f-eed6-497c-806b-b7a6e7f06867",
+      "K_B"
+    ],
+    [
+      "2d47888c-9017-49de-bd99-dc1148b0d1f7",
+      "K_N"
+    ],
+    [
+      "79578319-693e-4752-b41e-8dd1bdc3766b",
+      "K_ENTER"
+    ],
+    [
+      "ae9af42a-38e7-4811-81e6-2ca7706b5e89",
+      "K_Comma"
+    ],
+    [
+      "71d9f026-52e5-4545-bff2-8fa8d326a5c4",
+      "K_Period"
+    ],
+    [
+      "fe6e2f25-a6bf-4ae4-9936-523fd921e6ef",
+      "K_Slash"
+    ],
+    [
+      "3fe31508-7d6a-44ad-9e9d-b92aad99c011",
+      "K_RALT"
+    ],
+    [
+      "e7cc7535-0d08-4880-ac3d-16c4168dd258",
+      "K_RWIN"
+    ],
+    [
+      "38ba926e-85aa-4b4b-a4ee-697e0e5300dd",
+      "K_LCTRL"
+    ],
+    [
+      "8a3bb6e2-8edd-4fd4-b710-bd34ec6eeeaa",
+      "K_LWin"
+    ],
+    [
+      "37faefce-3ec3-4402-aa73-9769cbb975f1",
+      "K_RSHIFT"
+    ],
+    [
+      "3473b70b-d096-4e03-a92f-d49a55063404",
+      "K_RCTRL"
+    ],
+    [
+      "2351dc82-214a-4707-a25e-840010e8a71f",
+      "K_Menu"
+    ],
+    [
+      "b91df48b-06e1-4dc3-ba73-ae368a526664",
+      "K_DOWN"
+    ],
+    [
+      "45d1110c-7f71-4f43-bf59-2ae851e7891c",
+      "K_np5"
+    ],
+    [
+      "1c6d8538-d54c-4a54-8a91-5a780a48a8e1",
+      "K_Brightness"
+    ],
+    [
+      "37c5fa79-3868-4d79-98e1-4841cfd9c560",
+      "K_Play"
+    ],
+    [
+      "654adf1b-7e16-4538-a059-06e177387b30",
+      "K_RIGHT"
+    ],
+    [
+      "fba63b63-5d4d-4f31-b0f3-908449e83d36",
+      "K_LEFT"
+    ],
+    [
+      "2c7ca8e3-7a62-49bf-8078-d4fdfb63b207",
+      "K_np6"
+    ],
+    [
+      "c8cc6c08-6c2e-4727-8127-2bb6abf58e14",
+      "K_np1"
+    ],
+    [
+      "0d349493-4194-48a4-9082-9fa9542bc33a",
+      "K_np2"
+    ],
+    [
+      "685c2fa1-00da-4b01-b792-53c1c6c6a252",
+      "K_np3"
+    ],
+    [
+      "50e17075-04de-416d-be41-b0ce93a4b1a3",
+      "K_npPlus"
+    ],
+    [
+      "f4caf68f-8b5c-4362-8af5-7fdd75376ea8",
+      "K_Prev"
+    ],
+    [
+      "6f5a8851-5fd2-429d-8faa-ced814e76009",
+      "K_Next"
+    ],
+    [
+      "3b92d464-b714-4019-b995-b0a61e7cb553",
+      "K_Mute"
     ]
   ],
   "text_variables": {}

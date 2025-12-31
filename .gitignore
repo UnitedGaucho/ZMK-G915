@@ -5,13 +5,14 @@
 *.sch-bak
 *~
 _autosave-*
-*Keyboard_60%-backups*
+*-backups*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
 *_gerbers
 *.DS_Store*
+*.lck
 
 # Netlist files (exported from Eeschema)
 *.net
