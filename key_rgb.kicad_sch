@@ -2755,7 +2755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_Cherry_MX_6.25u_PCB"
+		(property "Footprint" "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 			(at 144.78 114.3 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148W"
+		(property "Value" "B140S1F-7"
 			(at 157.48 123.19 90)
 			(effects
 				(font
@@ -3313,7 +3313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 154.94 114.3 0)
 			(effects
 				(font
