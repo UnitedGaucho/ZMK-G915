@@ -608,12 +608,72 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC link",
+          "name": "LCSC link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HIEGHT",
+          "name": "MAXIMUM_PACKAGE_HIEGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KEY_ID",
+          "name": "KEY_ID",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "MX",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -659,260 +719,36 @@
   },
   "sheets": [
     [
-      "ef112b03-6536-453f-8127-17d1495b48aa",
-      "Root"
+      "2b9bfc7d-9bdb-498b-8a96-9143ca4aeb80",
+      "K_M1"
     ],
     [
-      "01d5aa47-03a0-4747-998b-393b2b88e5ef",
-      "USB and Power management"
+      "ba4aba9b-a8e6-49d8-82fd-eb772e881577",
+      "K_M2"
     ],
     [
-      "45c5f3d6-3be9-46e6-9c92-280cf0e0d840",
-      "switch_matrix"
+      "d1126c89-825b-406e-9a13-d5c695533ee5",
+      "K_M3"
     ],
     [
-      "23882a6b-8072-4b35-b509-c0fc19d00924",
-      "K_0"
+      "f0e87c6f-8826-4e6a-ad64-2ace0934cce3",
+      "K_MR"
     ],
     [
-      "fb14e74a-361e-46ee-8ca7-5cc728692960",
-      "K_1"
+      "d4be089e-df9a-4345-af6e-a49990e0432c",
+      "K_Wireless"
     ],
     [
-      "a480c485-4d93-481a-a2af-5ce998b317a4",
-      "K_2"
+      "1053d062-e3c6-4d22-80ee-baedf02d0f64",
+      "K_Bluetooth"
     ],
     [
-      "af776a49-b69e-4a1f-813f-a34c80058e20",
-      "K_3"
+      "e4c351e1-191d-4007-8039-87cf91d40d82",
+      "K_GameMode"
     ],
     [
-      "5eeac1b1-72de-4b7b-8146-8861f6bec119",
-      "K_4"
-    ],
-    [
-      "b0740ccc-8dbf-4bd5-99fc-ba5355f7102e",
-      "K_5"
-    ],
-    [
-      "a113d89b-b810-41c3-9220-e0e631457cfc",
-      "K_6"
-    ],
-    [
-      "1cf53407-437c-4f28-ac49-81a901a7617c",
-      "K_7"
-    ],
-    [
-      "904505db-9745-4c18-a4de-d064c7682a4b",
-      "K_8"
-    ],
-    [
-      "1ab8bfc9-fd64-4366-8748-4fd8d6b06b90",
-      "K_9"
-    ],
-    [
-      "8521467f-1645-4ccf-b478-93a7ffcbdcea",
-      "K_A"
-    ],
-    [
-      "73a5daae-4981-40af-be45-41f880658c27",
-      "K_Apostrophe"
-    ],
-    [
-      "1dae39e7-8c93-46f3-b48f-bf3631bc6e8b",
-      "K_B"
-    ],
-    [
-      "e0c392d3-ed87-40c3-bb77-43cab7720ab8",
-      "K_Backslash"
-    ],
-    [
-      "696de312-0d01-4f98-aa24-68f1474f5c4a",
-      "K_Backspace"
-    ],
-    [
-      "6083c266-cfc8-4a94-8431-2970b9cdd93b",
-      "K_C"
-    ],
-    [
-      "a839fefe-2bd3-465c-996c-e180617d436b",
-      "K_CAPS"
-    ],
-    [
-      "5e4fd0b0-388a-4b01-b96f-bd8795709c31",
-      "K_Comma"
-    ],
-    [
-      "c03e3c21-2fe4-4917-bcb4-830496258f1f",
-      "K_D"
-    ],
-    [
-      "7d1722b4-fb41-4c3e-a71e-1a57f82ecdd5",
-      "K_E"
-    ],
-    [
-      "ca19cd94-edff-410e-b262-63a069764c19",
-      "K_ENTER"
-    ],
-    [
-      "9cc45446-bc85-4e0f-9cdd-a1ca30db040e",
-      "K_Equals"
-    ],
-    [
-      "29495499-5018-43fc-9168-356e28ecd255",
-      "K_F"
-    ],
-    [
-      "b15e3c70-fdfc-42bb-a9b4-9079cffadf6b",
-      "K_G"
-    ],
-    [
-      "e9ed2702-46c6-4943-84de-39c3ccb18142",
-      "K_H"
-    ],
-    [
-      "81a2263a-91a8-4981-94de-13e77c7d46be",
-      "K_I"
-    ],
-    [
-      "6712bdae-7550-46f0-9111-eea26aec1c92",
-      "K_J"
-    ],
-    [
-      "de0281ab-40e4-4e8d-bf46-b9b50798b6df",
-      "K_K"
-    ],
-    [
-      "ee7b775a-a9b5-4eb0-899f-4f921dd5cf45",
-      "K_L"
-    ],
-    [
-      "7fea0980-1f42-45ec-955a-1419bcca78f2",
-      "K_LALT"
-    ],
-    [
-      "3fb2a9fb-7165-476a-b4d7-d511fbc44cfa",
-      "K_LBracket"
-    ],
-    [
-      "521bb75b-b595-4594-bd1a-c36f36252610",
-      "K_LCTRL"
-    ],
-    [
-      "9403f069-7bbf-4da6-a727-d45cbb224660",
-      "K_LSHIFT"
-    ],
-    [
-      "6ef794f0-a94a-4db6-8b13-b93262ec2921",
-      "K_LWin"
-    ],
-    [
-      "26e6122e-5669-41e0-afe4-a70dc881133e",
-      "K_M"
-    ],
-    [
-      "053c8639-a6e0-4567-8dad-8c5beb19d6b3",
-      "K_Menu"
-    ],
-    [
-      "3e826673-4928-4d34-ac96-2ba1893e0927",
-      "K_Minus"
-    ],
-    [
-      "adf502b2-3eb7-4029-8628-30efb44a8081",
-      "K_N"
-    ],
-    [
-      "181a6cf2-537a-40c1-9d92-da6675eba5a3",
-      "K_O"
-    ],
-    [
-      "ee51300c-4c4e-40ae-91ac-0e84541b9ef5",
-      "K_P"
-    ],
-    [
-      "4105ecd4-c796-4c56-b069-50b0952937f4",
-      "K_Period"
-    ],
-    [
-      "94b26bea-efdb-455f-b964-0c17dfb11ba6",
-      "K_Q"
-    ],
-    [
-      "d89f7418-a127-425b-b3a2-85314732a78e",
-      "K_R"
-    ],
-    [
-      "24b924dc-1e25-4dd0-be4f-e4243a8b5c5b",
-      "K_RALT"
-    ],
-    [
-      "2481794d-22e0-4ec5-8dd8-89fa9f083e9f",
-      "K_RBracket"
-    ],
-    [
-      "b30cd91c-2fce-4a24-b482-3d6c448d25b3",
-      "K_RCTRL"
-    ],
-    [
-      "29a24541-6f43-4640-b27a-63d711f3c2b8",
-      "K_RSHIFT"
-    ],
-    [
-      "42ccac8f-98da-44c2-92df-51ca6016cd98",
-      "K_RWIN"
-    ],
-    [
-      "d349e6eb-86b6-4733-bbfb-a8a53ebf7c24",
-      "K_S"
-    ],
-    [
-      "24bab9e8-b84b-496b-8221-37319d613257",
-      "K_Semicolon"
-    ],
-    [
-      "7873f729-e30b-462e-b40d-4c5186335d57",
-      "K_Slash"
-    ],
-    [
-      "cf8c27df-777c-44d3-b92c-ac330a9e32e6",
-      "K_Space"
-    ],
-    [
-      "a2f62563-c110-46e0-9d83-5bf17d3da31f",
-      "K_T"
-    ],
-    [
-      "7fb24d06-99bc-4398-bdd2-d701929848ad",
-      "K_TABS"
-    ],
-    [
-      "f5c99885-804f-412f-b6b7-f09b73f6ac48",
-      "K_Tilde"
-    ],
-    [
-      "6320103b-8d75-498f-b9be-07002d32c25c",
-      "K_U"
-    ],
-    [
-      "1ad7122b-b9d5-4cad-8738-c5b3d3eaeae4",
-      "K_V"
-    ],
-    [
-      "79220ce9-7120-493e-8b23-9496433bab9a",
-      "K_W"
-    ],
-    [
-      "44e7aa54-3086-4bbe-a0aa-d14309f9b5b5",
-      "K_X"
-    ],
-    [
-      "8be9f27d-3a44-414d-a3a6-058257cb8cb3",
-      "K_Y"
-    ],
-    [
-      "40bc2bcc-1cef-43e6-95a2-0afae7453df8",
-      "K_Z"
+      "80f94df5-0abe-488d-a8ad-7866591e6c37",
+      "K_Brightness"
     ],
     [
       "347e61db-8d3e-48df-9329-5a0d8d571b15",
@@ -967,32 +803,192 @@
       "K_F12"
     ],
     [
-      "7029cd2c-9c75-4f81-bed5-88efde73119a",
-      "K_np0"
+      "e068f1b4-6023-4e40-bcb0-94d4e554d5e4",
+      "K_PRTSC"
     ],
     [
-      "26f142a7-9b70-45e1-89bd-1ec05c947e7a",
-      "K_np1"
+      "ba717c3a-34fb-451b-822b-a66fdfd896f9",
+      "K_SCRLK"
     ],
     [
-      "b132aa1e-bed8-4979-b4e9-0420047bb26b",
-      "K_np2"
+      "10049236-4573-4cdb-a5b9-75364931df55",
+      "K_PAUSE"
     ],
     [
-      "bb2a257b-18bd-4798-834e-ab3c48c6867d",
-      "K_np3"
+      "0db57395-32d8-4d6e-b327-79c005d49487",
+      "K_Prev"
     ],
     [
-      "67993a85-3a97-40d4-a2f3-21ae31c6ae80",
-      "K_np4"
+      "11d085ba-e20a-4d67-8d24-489b1116e61b",
+      "K_Play"
     ],
     [
-      "58ac1178-f005-4706-b4ca-9decd128f73d",
-      "K_np5"
+      "82e2d0c9-d015-48eb-aa5b-f9cfd2f1f9f9",
+      "K_Next"
     ],
     [
-      "e839959d-bf0e-4299-94fa-63e4f8d42d2e",
-      "K_np6"
+      "d9d14dbe-cd0a-4200-a423-d4954a921bd0",
+      "K_Mute"
+    ],
+    [
+      "805ae422-4826-46f4-859f-26f16b6c91f9",
+      "K_G1"
+    ],
+    [
+      "f5c99885-804f-412f-b6b7-f09b73f6ac48",
+      "K_Tilde"
+    ],
+    [
+      "fb14e74a-361e-46ee-8ca7-5cc728692960",
+      "K_1"
+    ],
+    [
+      "a480c485-4d93-481a-a2af-5ce998b317a4",
+      "K_2"
+    ],
+    [
+      "af776a49-b69e-4a1f-813f-a34c80058e20",
+      "K_3"
+    ],
+    [
+      "5eeac1b1-72de-4b7b-8146-8861f6bec119",
+      "K_4"
+    ],
+    [
+      "b0740ccc-8dbf-4bd5-99fc-ba5355f7102e",
+      "K_5"
+    ],
+    [
+      "a113d89b-b810-41c3-9220-e0e631457cfc",
+      "K_6"
+    ],
+    [
+      "1cf53407-437c-4f28-ac49-81a901a7617c",
+      "K_7"
+    ],
+    [
+      "904505db-9745-4c18-a4de-d064c7682a4b",
+      "K_8"
+    ],
+    [
+      "1ab8bfc9-fd64-4366-8748-4fd8d6b06b90",
+      "K_9"
+    ],
+    [
+      "23882a6b-8072-4b35-b509-c0fc19d00924",
+      "K_0"
+    ],
+    [
+      "3e826673-4928-4d34-ac96-2ba1893e0927",
+      "K_Minus"
+    ],
+    [
+      "9cc45446-bc85-4e0f-9cdd-a1ca30db040e",
+      "K_Equals"
+    ],
+    [
+      "696de312-0d01-4f98-aa24-68f1474f5c4a",
+      "K_Backspace"
+    ],
+    [
+      "99615089-83be-439a-ad9e-74a5e31217b4",
+      "K_INS"
+    ],
+    [
+      "f16dcf83-29fa-4018-8f9e-cf252537c9e2",
+      "K_HOME"
+    ],
+    [
+      "d3f39681-db2b-4b39-832a-7a42fd865f76",
+      "K_PGUP"
+    ],
+    [
+      "bb6a81c4-630c-42a1-ba52-baab81212dd5",
+      "K_npNUM"
+    ],
+    [
+      "3efa93f9-2311-4de1-b3bc-3c9a12ffcfb4",
+      "K_npSlash"
+    ],
+    [
+      "02ea431f-dfef-4983-881a-f6e639ebea9d",
+      "K_npAsterisk"
+    ],
+    [
+      "9052ebf8-e984-4817-bac1-dc54f1f4332d",
+      "K_npMinus"
+    ],
+    [
+      "717fafdc-3a9a-4887-b196-b7a153a310f5",
+      "K_G2"
+    ],
+    [
+      "7fb24d06-99bc-4398-bdd2-d701929848ad",
+      "K_TAB"
+    ],
+    [
+      "94b26bea-efdb-455f-b964-0c17dfb11ba6",
+      "K_Q"
+    ],
+    [
+      "79220ce9-7120-493e-8b23-9496433bab9a",
+      "K_W"
+    ],
+    [
+      "7d1722b4-fb41-4c3e-a71e-1a57f82ecdd5",
+      "K_E"
+    ],
+    [
+      "d89f7418-a127-425b-b3a2-85314732a78e",
+      "K_R"
+    ],
+    [
+      "a2f62563-c110-46e0-9d83-5bf17d3da31f",
+      "K_T"
+    ],
+    [
+      "8be9f27d-3a44-414d-a3a6-058257cb8cb3",
+      "K_Y"
+    ],
+    [
+      "6320103b-8d75-498f-b9be-07002d32c25c",
+      "K_U"
+    ],
+    [
+      "81a2263a-91a8-4981-94de-13e77c7d46be",
+      "K_I"
+    ],
+    [
+      "181a6cf2-537a-40c1-9d92-da6675eba5a3",
+      "K_O"
+    ],
+    [
+      "ee51300c-4c4e-40ae-91ac-0e84541b9ef5",
+      "K_P"
+    ],
+    [
+      "3fb2a9fb-7165-476a-b4d7-d511fbc44cfa",
+      "K_LBracket"
+    ],
+    [
+      "2481794d-22e0-4ec5-8dd8-89fa9f083e9f",
+      "K_RBracket"
+    ],
+    [
+      "e0c392d3-ed87-40c3-bb77-43cab7720ab8",
+      "K_Backslash"
+    ],
+    [
+      "19bd0ac3-2adf-4d38-9238-c35bd901aacb",
+      "K_DEL"
+    ],
+    [
+      "94df06c4-7a3a-43a3-a658-e315a38f59cd",
+      "K_END"
+    ],
+    [
+      "a3174639-566b-4dc9-ac85-3ed91b3007e7",
+      "K_PGDN"
     ],
     [
       "ce5a1f47-6dff-4f5c-9bb2-0f11b96ec8a7",
@@ -1007,152 +1003,216 @@
       "K_np9"
     ],
     [
-      "02ea431f-dfef-4983-881a-f6e639ebea9d",
-      "K_npAsterisk"
-    ],
-    [
-      "1733d5b0-35e4-4fcb-b52f-eb21ca391804",
-      "K_npDecimal"
-    ],
-    [
-      "3a44961e-c928-43cc-8155-22d148e4148f",
-      "K_npEnter"
-    ],
-    [
-      "9052ebf8-e984-4817-bac1-dc54f1f4332d",
-      "K_npMinus"
-    ],
-    [
-      "bb6a81c4-630c-42a1-ba52-baab81212dd5",
-      "K_npNUM"
-    ],
-    [
       "8536e742-9f3e-46bb-b960-bf3a0ec1cd1a",
       "K_npPlus"
-    ],
-    [
-      "3efa93f9-2311-4de1-b3bc-3c9a12ffcfb4",
-      "K_npSlash"
-    ],
-    [
-      "805ae422-4826-46f4-859f-26f16b6c91f9",
-      "K_G1"
-    ],
-    [
-      "717fafdc-3a9a-4887-b196-b7a153a310f5",
-      "K_G2"
     ],
     [
       "f63166ee-db49-4c3a-933e-a40605d9dcf8",
       "K_G3"
     ],
     [
+      "a839fefe-2bd3-465c-996c-e180617d436b",
+      "K_CAPS"
+    ],
+    [
+      "8521467f-1645-4ccf-b478-93a7ffcbdcea",
+      "K_A"
+    ],
+    [
+      "d349e6eb-86b6-4733-bbfb-a8a53ebf7c24",
+      "K_S"
+    ],
+    [
+      "c03e3c21-2fe4-4917-bcb4-830496258f1f",
+      "K_D"
+    ],
+    [
+      "29495499-5018-43fc-9168-356e28ecd255",
+      "K_F"
+    ],
+    [
+      "b15e3c70-fdfc-42bb-a9b4-9079cffadf6b",
+      "K_G"
+    ],
+    [
+      "e9ed2702-46c6-4943-84de-39c3ccb18142",
+      "K_H"
+    ],
+    [
+      "6712bdae-7550-46f0-9111-eea26aec1c92",
+      "K_J"
+    ],
+    [
+      "de0281ab-40e4-4e8d-bf46-b9b50798b6df",
+      "K_K"
+    ],
+    [
+      "ee7b775a-a9b5-4eb0-899f-4f921dd5cf45",
+      "K_L"
+    ],
+    [
+      "24bab9e8-b84b-496b-8221-37319d613257",
+      "K_Semicolon"
+    ],
+    [
+      "73a5daae-4981-40af-be45-41f880658c27",
+      "K_Apostrophe"
+    ],
+    [
+      "ca19cd94-edff-410e-b262-63a069764c19",
+      "K_ENTER"
+    ],
+    [
+      "67993a85-3a97-40d4-a2f3-21ae31c6ae80",
+      "K_np4"
+    ],
+    [
+      "58ac1178-f005-4706-b4ca-9decd128f73d",
+      "K_np5"
+    ],
+    [
+      "e839959d-bf0e-4299-94fa-63e4f8d42d2e",
+      "K_np6"
+    ],
+    [
       "a63a3d50-c60c-4344-a3cf-d0dd18d11b63",
       "K_G4"
     ],
     [
-      "26292b14-bb0e-42b6-a88c-8af54722245c",
-      "K_G5"
+      "9403f069-7bbf-4da6-a727-d45cbb224660",
+      "K_LSHIFT"
     ],
     [
-      "19bd0ac3-2adf-4d38-9238-c35bd901aacb",
-      "K_DEL"
+      "40bc2bcc-1cef-43e6-95a2-0afae7453df8",
+      "K_Z"
     ],
     [
-      "c0b62272-4598-4f62-b2ed-fac2e796e770",
-      "K_DOWN"
+      "44e7aa54-3086-4bbe-a0aa-d14309f9b5b5",
+      "K_X"
     ],
     [
-      "94df06c4-7a3a-43a3-a658-e315a38f59cd",
-      "K_END"
+      "6083c266-cfc8-4a94-8431-2970b9cdd93b",
+      "K_C"
     ],
     [
-      "f16dcf83-29fa-4018-8f9e-cf252537c9e2",
-      "K_HOME"
+      "1ad7122b-b9d5-4cad-8738-c5b3d3eaeae4",
+      "K_V"
     ],
     [
-      "99615089-83be-439a-ad9e-74a5e31217b4",
-      "K_INS"
+      "1dae39e7-8c93-46f3-b48f-bf3631bc6e8b",
+      "K_B"
     ],
     [
-      "84cfba03-c1f5-410e-8ee0-dc268eb8b3c6",
-      "K_LEFT"
+      "adf502b2-3eb7-4029-8628-30efb44a8081",
+      "K_N"
     ],
     [
-      "10049236-4573-4cdb-a5b9-75364931df55",
-      "K_PAUSE"
+      "26e6122e-5669-41e0-afe4-a70dc881133e",
+      "K_M"
     ],
     [
-      "a3174639-566b-4dc9-ac85-3ed91b3007e7",
-      "K_PGDN"
+      "5e4fd0b0-388a-4b01-b96f-bd8795709c31",
+      "K_Comma"
     ],
     [
-      "d3f39681-db2b-4b39-832a-7a42fd865f76",
-      "K_PGUP"
+      "4105ecd4-c796-4c56-b069-50b0952937f4",
+      "K_Period"
     ],
     [
-      "e068f1b4-6023-4e40-bcb0-94d4e554d5e4",
-      "K_PRTSC"
+      "7873f729-e30b-462e-b40d-4c5186335d57",
+      "K_Slash"
     ],
     [
-      "51136073-cae0-41d3-9fb4-0648efadabca",
-      "K_RIGHT"
-    ],
-    [
-      "ba717c3a-34fb-451b-822b-a66fdfd896f9",
-      "K_SCRLK"
+      "29a24541-6f43-4640-b27a-63d711f3c2b8",
+      "K_RSHIFT"
     ],
     [
       "413547ea-6818-4081-8e4f-a43a350ee965",
       "K_UP"
     ],
     [
-      "1053d062-e3c6-4d22-80ee-baedf02d0f64",
-      "K_Bluetooth"
+      "26f142a7-9b70-45e1-89bd-1ec05c947e7a",
+      "K_np1"
     ],
     [
-      "80f94df5-0abe-488d-a8ad-7866591e6c37",
-      "K_Brightness"
+      "b132aa1e-bed8-4979-b4e9-0420047bb26b",
+      "K_np2"
     ],
     [
-      "e4c351e1-191d-4007-8039-87cf91d40d82",
-      "K_GameMode"
+      "bb2a257b-18bd-4798-834e-ab3c48c6867d",
+      "K_np3"
     ],
     [
-      "2b9bfc7d-9bdb-498b-8a96-9143ca4aeb80",
-      "K_M1"
+      "3a44961e-c928-43cc-8155-22d148e4148f",
+      "K_npEnter"
     ],
     [
-      "ba4aba9b-a8e6-49d8-82fd-eb772e881577",
-      "K_M2"
+      "26292b14-bb0e-42b6-a88c-8af54722245c",
+      "K_G5"
     ],
     [
-      "d1126c89-825b-406e-9a13-d5c695533ee5",
-      "K_M3"
+      "521bb75b-b595-4594-bd1a-c36f36252610",
+      "K_LCTRL"
     ],
     [
-      "f0e87c6f-8826-4e6a-ad64-2ace0934cce3",
-      "K_MR"
+      "6ef794f0-a94a-4db6-8b13-b93262ec2921",
+      "K_LWin"
     ],
     [
-      "d9d14dbe-cd0a-4200-a423-d4954a921bd0",
-      "K_Mute"
+      "7fea0980-1f42-45ec-955a-1419bcca78f2",
+      "K_LALT"
     ],
     [
-      "82e2d0c9-d015-48eb-aa5b-f9cfd2f1f9f9",
-      "K_Next"
+      "cf8c27df-777c-44d3-b92c-ac330a9e32e6",
+      "K_Space"
     ],
     [
-      "11d085ba-e20a-4d67-8d24-489b1116e61b",
-      "K_Play"
+      "24b924dc-1e25-4dd0-be4f-e4243a8b5c5b",
+      "K_RALT"
     ],
     [
-      "0db57395-32d8-4d6e-b327-79c005d49487",
-      "K_Prev"
+      "42ccac8f-98da-44c2-92df-51ca6016cd98",
+      "K_RWIN"
     ],
     [
-      "d4be089e-df9a-4345-af6e-a49990e0432c",
-      "K_Wireless"
+      "053c8639-a6e0-4567-8dad-8c5beb19d6b3",
+      "K_Menu"
+    ],
+    [
+      "b30cd91c-2fce-4a24-b482-3d6c448d25b3",
+      "K_RCTRL"
+    ],
+    [
+      "84cfba03-c1f5-410e-8ee0-dc268eb8b3c6",
+      "K_LEFT"
+    ],
+    [
+      "c0b62272-4598-4f62-b2ed-fac2e796e770",
+      "K_DOWN"
+    ],
+    [
+      "51136073-cae0-41d3-9fb4-0648efadabca",
+      "K_RIGHT"
+    ],
+    [
+      "7029cd2c-9c75-4f81-bed5-88efde73119a",
+      "K_np0"
+    ],
+    [
+      "1733d5b0-35e4-4fcb-b52f-eb21ca391804",
+      "K_npDecimal"
+    ],
+    [
+      "ef112b03-6536-453f-8127-17d1495b48aa",
+      "Root"
+    ],
+    [
+      "01d5aa47-03a0-4747-998b-393b2b88e5ef",
+      "USB and Power management"
+    ],
+    [
+      "45c5f3d6-3be9-46e6-9c92-280cf0e0d840",
+      "switch_matrix"
     ]
   ],
   "text_variables": {}
