@@ -5904,7 +5904,7 @@
 		)
 		(uuid "d8815440-af23-46a6-9910-b658ae678860")
 	)
-	(text "TODO\n-Pin assignments\n-Status LEDs\n-Volume wheel encoder:\n	Choose part/rev eng donor part\n	Review header selection\n-Review reset method\n-Review parts/BOM"
+	(text "TODO\n-Pin assignments\n-Status LEDs\n-Volume wheel encoder:\n	Choose part/rev eng donor part\n	Review header selection\n-Review reset necessity/method\n-Review parts/BOM\n-USB-C PD??\n	space\n	dev/debug effort"
 		(exclude_from_sim no)
 		(at 151.638 80.772 0)
 		(effects
@@ -6309,7 +6309,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 124.46) (xy 260.35 124.46)
+			(xy 245.11 124.46) (xy 251.46 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9079,6 +9079,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 124.46) (xy 260.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bed43e-4abf-419c-b533-5098a5b2fa27")
+	)
+	(wire
+		(pts
 			(xy 43.18 96.52) (xy 43.18 99.06)
 		)
 		(stroke
@@ -9319,7 +9329,7 @@
 		(uuid "33d7e1ff-b796-4ebd-bd5a-72de3b701f57")
 	)
 	(label "VBUS"
-		(at 254 124.46 0)
+		(at 245.11 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15937,6 +15947,100 @@
 			(project "Keyboard_60%"
 				(path "/ef112b03-6536-453f-8127-17d1495b48aa"
 					(reference "C123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:R_US")
+		(at 255.27 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc6900ab-10fa-412e-8bd1-e8ef712e5a0f")
+		(property "Reference" "R20"
+			(at 255.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 255.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyboard:R_0402_1005Metric"
+			(at 255.016 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-071K2L_C138040.pdf"
+			(at 255.27 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0402FR-071K2L"
+			(at 255.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C138040"
+			(at 255.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071K2L_C138040.html"
+			(at 255.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50eb9abf-57be-43c5-bf16-e570d8d576cd")
+		)
+		(pin "2"
+			(uuid "066df166-ff9d-4c1f-a39e-b1e472f32da2")
+		)
+		(instances
+			(project "zmk-g915"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa"
+					(reference "R20")
 					(unit 1)
 				)
 			)

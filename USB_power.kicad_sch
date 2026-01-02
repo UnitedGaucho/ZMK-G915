@@ -4295,7 +4295,7 @@
 	)
 	(text "Low Battery LED"
 		(exclude_from_sim no)
-		(at 179.832 78.74 0)
+		(at 247.142 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4316,7 +4316,7 @@
 	)
 	(text "CHG LED"
 		(exclude_from_sim no)
-		(at 163.83 99.06 0)
+		(at 155.956 107.442 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4434,18 +4434,6 @@
 		)
 		(uuid "cdfbee50-c9be-4ea8-a35e-19921f1b7646")
 	)
-	(text "POWER STATUS LED"
-		(exclude_from_sim no)
-		(at 160.02 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8d10537-8ab6-41e5-842f-75bd3b86b82f")
-	)
 	(text "IF EN2 = 1 and EN1 = 0,\nthen max input current \nis decided  by the \nILIM pin resistance."
 		(exclude_from_sim no)
 		(at 167.64 130.81 0)
@@ -4475,6 +4463,12 @@
 		(uuid "0592f3ae-3280-4d22-b1e3-b6631c409672")
 	)
 	(junction
+		(at 250.19 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11954287-5e31-4d7a-946f-9c1fab00594b")
+	)
+	(junction
 		(at 95.25 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4491,6 +4485,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25d2554c-46e8-4ff5-80c5-ee37f0d83702")
+	)
+	(junction
+		(at 90.17 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40fb8f90-c6a7-4d62-bd51-41d163240df7")
+	)
+	(junction
+		(at 246.38 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a4ccffd-54de-402a-8f5c-6e6c9b52b2c5")
 	)
 	(junction
 		(at 158.75 120.65)
@@ -4523,12 +4529,6 @@
 		(uuid "8281f9b2-5ff6-443c-beab-75a65a670c32")
 	)
 	(junction
-		(at 187.96 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94088327-2bf6-4960-bade-1a54cc499bea")
-	)
-	(junction
 		(at 165.1 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4553,7 +4553,7 @@
 		(uuid "e4fba99f-d711-4226-8bcc-e9b2dde69b0a")
 	)
 	(junction
-		(at 90.805 134.62)
+		(at 90.17 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebe2dc7c-3acd-4f58-a030-9d80b852c16f")
@@ -4597,6 +4597,10 @@
 		(uuid "25ba8f27-0642-44d0-ad13-994020b5450a")
 	)
 	(no_connect
+		(at 153.67 114.3)
+		(uuid "b012bf31-ede3-438a-8098-44364d1ba583")
+	)
+	(no_connect
 		(at 118.11 134.62)
 		(uuid "ceb80e76-e8de-4a16-8083-88d34120a1c5")
 	)
@@ -4622,6 +4626,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 123.19) (xy 101.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02aed9d5-42f0-49d6-991e-656154986fad")
+	)
+	(wire
+		(pts
 			(xy 101.6 123.19) (xy 114.3 123.19)
 		)
 		(stroke
@@ -4629,6 +4643,16 @@
 			(type default)
 		)
 		(uuid "074c0ee4-afd8-4966-9d1f-ec42c8c2636b")
+	)
+	(wire
+		(pts
+			(xy 243.84 27.94) (xy 245.11 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075bd128-ab82-4007-b033-7437b9d161ec")
 	)
 	(wire
 		(pts
@@ -4662,16 +4686,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 163.83 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d620a9a-f95f-4e23-aed1-7ddb8833629e")
-	)
-	(wire
-		(pts
 			(xy 69.85 186.69) (xy 81.28 186.69)
 		)
 		(stroke
@@ -4692,6 +4706,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 38.1) (xy 246.38 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1037caa6-4e48-43e1-8bcb-a1b30897b889")
+	)
+	(wire
+		(pts
 			(xy 138.43 149.86) (xy 138.43 153.67)
 		)
 		(stroke
@@ -4699,16 +4723,6 @@
 			(type default)
 		)
 		(uuid "19d12b81-1380-47fa-ab05-a05d7981f095")
-	)
-	(wire
-		(pts
-			(xy 163.83 110.49) (xy 162.56 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a2988f2-66de-44d8-9fc5-fd84bb97c008")
 	)
 	(wire
 		(pts
@@ -4762,6 +4776,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 48.26) (xy 250.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6c81c5-3aed-4b62-abcc-765863f0c2f8")
+	)
+	(wire
+		(pts
 			(xy 246.38 129.54) (xy 246.38 133.35)
 		)
 		(stroke
@@ -4792,6 +4816,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 38.1) (xy 246.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260eacb9-fbd5-4f3b-80e4-713659eca06d")
+	)
+	(wire
+		(pts
 			(xy 123.19 24.13) (xy 123.19 26.67)
 		)
 		(stroke
@@ -4802,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 97.79) (xy 186.69 99.06)
+			(xy 254 43.18) (xy 254 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4912,6 +4946,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 46.99) (xy 246.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a33ce7-c441-4dd1-b111-5416e46393fb")
+	)
+	(wire
+		(pts
 			(xy 64.77 24.13) (xy 76.2 24.13)
 		)
 		(stroke
@@ -5002,33 +5046,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 187.96 106.68)
+			(xy 83.82 123.19) (xy 90.17 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59d6b722-68e4-466c-ad33-a33f8ed952b4")
-	)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 198.12 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad11ad5-335b-451c-a67d-7af9934ac706")
-	)
-	(wire
-		(pts
-			(xy 171.45 92.71) (xy 179.07 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dadd872-d025-480d-b2a3-c9076a6c7941")
+		(uuid "63f8b19a-e5e8-49f6-b128-9c7a91cd5e1d")
 	)
 	(wire
 		(pts
@@ -5049,16 +5073,6 @@
 			(type default)
 		)
 		(uuid "699c180d-cb70-4588-9631-6ff74ff45d3e")
-	)
-	(wire
-		(pts
-			(xy 162.56 114.3) (xy 153.67 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d936608-fcc1-47d9-b9a7-5c6cbb8c38e4")
 	)
 	(wire
 		(pts
@@ -5089,6 +5103,16 @@
 			(type default)
 		)
 		(uuid "74f7efe0-ad45-4a8d-8981-3f5e7ee2c48c")
+	)
+	(wire
+		(pts
+			(xy 250.19 48.26) (xy 254 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78521553-996e-41e2-a9c0-e4bea73bf589")
 	)
 	(wire
 		(pts
@@ -5139,16 +5163,6 @@
 			(type default)
 		)
 		(uuid "7ef23ef5-1233-4612-a7b3-95afd5c9e6d0")
-	)
-	(wire
-		(pts
-			(xy 171.45 104.14) (xy 176.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f16ba23-caef-44f0-89ea-d5a1c3b3c60c")
 	)
 	(wire
 		(pts
@@ -5242,7 +5256,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 86.36) (xy 186.69 87.63)
+			(xy 254 27.94) (xy 254 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5252,17 +5266,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 111.76) (xy 160.02 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957dba8e-00d0-48ae-903c-5aa3f49961ad")
-	)
-	(wire
-		(pts
-			(xy 171.45 86.36) (xy 177.8 86.36)
+			(xy 229.87 27.94) (xy 236.22 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5322,16 +5326,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.76) (xy 160.02 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a641e108-b940-4058-a323-af9b446c391f")
-	)
-	(wire
-		(pts
 			(xy 64.77 55.88) (xy 76.2 55.88)
 		)
 		(stroke
@@ -5349,16 +5343,6 @@
 			(type default)
 		)
 		(uuid "b131e342-bc73-474a-a94b-c5301d34355e")
-	)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 187.96 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b253c3e2-5126-4014-a2f2-ffa81104b825")
 	)
 	(wire
 		(pts
@@ -5382,16 +5366,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 110.49) (xy 176.53 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4383f38-cc27-4fb0-a56a-41e488cdcf5c")
-	)
-	(wire
-		(pts
 			(xy 153.67 132.08) (xy 156.21 132.08)
 		)
 		(stroke
@@ -5412,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 137.16) (xy 90.805 134.62)
+			(xy 90.17 137.16) (xy 90.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5442,13 +5416,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 110.49) (xy 187.96 110.49)
+			(xy 246.38 48.26) (xy 250.19 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1834399-703c-4721-9a1e-0adadee21f40")
+		(uuid "c049b8b0-8453-4899-a918-7be5f2b123b4")
 	)
 	(wire
 		(pts
@@ -5482,7 +5456,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 134.62) (xy 101.6 134.62)
+			(xy 90.17 134.62) (xy 101.6 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5532,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 125.73) (xy 90.805 123.19)
+			(xy 90.17 125.73) (xy 90.17 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5552,7 +5526,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 186.69 86.36)
+			(xy 252.73 27.94) (xy 254 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5612,16 +5586,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 110.49) (xy 162.56 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2365101-5f70-43a8-9375-accaf7dabf9e")
-	)
-	(wire
-		(pts
 			(xy 114.3 123.19) (xy 114.3 124.46)
 		)
 		(stroke
@@ -5642,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 133.35) (xy 90.805 134.62)
+			(xy 90.17 133.35) (xy 90.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5669,16 +5633,6 @@
 			(type default)
 		)
 		(uuid "daed5950-80cd-4e7f-8ed1-e46dae320d71")
-	)
-	(wire
-		(pts
-			(xy 90.805 123.19) (xy 101.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe07b02-65cf-4829-a8bc-35f6aa09a19d")
 	)
 	(wire
 		(pts
@@ -5712,16 +5666,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 104.14) (xy 187.96 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de1a726e-dde2-4441-a94c-724664978da9")
-	)
-	(wire
-		(pts
 			(xy 33.02 80.01) (xy 33.02 80.645)
 		)
 		(stroke
@@ -5732,6 +5676,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 111.76) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bac05f-06c8-4538-94d5-71ab9c5cde57")
+	)
+	(wire
+		(pts
 			(xy 158.75 120.65) (xy 162.56 120.65)
 		)
 		(stroke
@@ -5739,6 +5693,16 @@
 			(type default)
 		)
 		(uuid "e5c770b9-6719-4435-9dd6-6948ce7d7b90")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda0aa1e-fe73-4d95-a4d1-8d0e47a1ba37")
 	)
 	(wire
 		(pts
@@ -5762,6 +5726,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 38.1) (xy 236.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61f0b1e-5fdb-4a61-b844-8e86fbaf41e7")
+	)
+	(wire
+		(pts
 			(xy 114.3 21.59) (xy 123.19 21.59)
 		)
 		(stroke
@@ -5769,6 +5743,16 @@
 			(type default)
 		)
 		(uuid "f8b2fd1e-82a0-4c22-a688-0f79de4c8084")
+	)
+	(wire
+		(pts
+			(xy 153.67 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dfadf0-3dbc-40ef-83fd-c69528649ac8")
 	)
 	(wire
 		(pts
@@ -5840,8 +5824,8 @@
 		)
 		(uuid "107569b6-3cc4-477b-b920-6d32f65dd0b1")
 	)
-	(label "LBAT_LED"
-		(at 171.45 92.71 0)
+	(label "LOW_BAT_LED"
+		(at 220.98 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5861,7 +5845,7 @@
 		(uuid "14426361-5a4e-43d9-b345-48ec2e42f289")
 	)
 	(label "V_BATT"
-		(at 105.41 123.19 0)
+		(at 83.82 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5881,7 +5865,7 @@
 		(uuid "1ad80163-2924-4ff4-88a9-7fbf1fbd1e39")
 	)
 	(label "CHG_OUT"
-		(at 198.12 106.68 180)
+		(at 182.88 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5901,7 +5885,7 @@
 		(uuid "21adf56f-4ed5-483a-969f-e461aecf9d1d")
 	)
 	(label "VBUS"
-		(at 171.45 86.36 0)
+		(at 229.87 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6030,7 +6014,7 @@
 		)
 		(uuid "af9673b7-5a3a-420f-a73f-2765dbf12794")
 	)
-	(label "LBAT_LED"
+	(label "LOW_BAT_LED"
 		(at 101.6 190.5 0)
 		(effects
 			(font
@@ -6214,6 +6198,194 @@
 			(project "Keyboard_60%"
 				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
 					(reference "#PWR0399")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:R_US")
+		(at 246.38 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ac5abef-442b-42cd-8d3d-777bf125ddd1")
+		(property "Reference" "R15"
+			(at 243.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 248.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyboard:R_0402_1005Metric"
+			(at 247.396 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-071K2L_C138040.pdf"
+			(at 246.38 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0402FR-071K2L"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C138040"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071K2L_C138040.html"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91a20486-9b7a-4b11-af70-f04387cced61")
+		)
+		(pin "2"
+			(uuid "bff41337-cfc5-4e26-be71-413d235df922")
+		)
+		(instances
+			(project "zmk-g915"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:R_US")
+		(at 240.03 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "158748da-25fa-4025-9e79-de345e89eb0d")
+		(property "Reference" "R19"
+			(at 240.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyboard:R_0402_1005Metric"
+			(at 239.776 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-071K2L_C138040.pdf"
+			(at 240.03 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0402FR-071K2L"
+			(at 240.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C138040"
+			(at 240.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071K2L_C138040.html"
+			(at 240.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a50a607c-3008-4440-ba3e-8f4c1aa2378e")
+		)
+		(pin "2"
+			(uuid "284afd77-bc83-44b5-8c55-4cbfaa21ce62")
+		)
+		(instances
+			(project "zmk-g915"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6405,100 +6577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:LED")
-		(at 167.64 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41b144f1-c67c-4964-ad0d-e948a98e29f7")
-		(property "Reference" "D123"
-			(at 167.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 171.45 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyboard:LED_0603_1608Metric"
-			(at 167.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811100911_Orient-ORH-B36G_C193191.pdf"
-			(at 167.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "ORH-B36G"
-			(at 167.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Orient-ORH-B36G_C193191.html"
-			(at 167.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C193191"
-			(at 167.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb0d56f2-49c3-4752-9b1a-203def325420")
-		)
-		(pin "2"
-			(uuid "e42c14f8-3362-4d3f-9309-58bb7a9b9ecd")
-		)
-		(instances
-			(project "Keyboard_60%"
-				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
-					(reference "D123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "keyboard:R_US")
 		(at 69.85 41.91 180)
 		(unit 1)
@@ -6668,7 +6746,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 186.69 99.06 0)
+		(at 250.19 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6676,7 +6754,7 @@
 		(dnp no)
 		(uuid "6b73b027-d411-4223-a91a-6e69d606fbb8")
 		(property "Reference" "#PWR0405"
-			(at 186.69 105.41 0)
+			(at 250.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.817 103.4542 0)
+			(at 250.317 53.9242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 99.06 0)
+			(at 250.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 99.06 0)
+			(at 250.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 99.06 0)
+			(at 250.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6906,7 @@
 	)
 	(symbol
 		(lib_id "keyboard:Battery_Cell")
-		(at 90.805 130.81 0)
+		(at 90.17 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6837,7 +6915,7 @@
 		(dnp no)
 		(uuid "72881395-612d-4041-96a4-10e5fdd6dd16")
 		(property "Reference" "BT1"
-			(at 87.122 128.778 0)
+			(at 86.487 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +6924,7 @@
 			)
 		)
 		(property "Value" "Lipo cell"
-			(at 89.154 131.572 0)
+			(at 88.519 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,7 +6933,7 @@
 			)
 		)
 		(property "Footprint" "keyboard:JST-2-pin"
-			(at 70.993 129.54 90)
+			(at 70.358 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +6942,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2102031704_JST-S2B-PH-SM4-TB-LF-SN_C295747.pdf?_gl=1*1ypqtxq*_ga*MTU4NjQwMTc1OS4xNjc2OTUzMTU3*_ga_98M84MKSZH*MTcxNTc0NzcxMC44NS4xLjE3MTU3NDk1MDAuMzYuMC4w"
-			(at 74.295 129.54 90)
+			(at 73.66 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +6951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.805 130.81 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6960,7 @@
 			)
 		)
 		(property "LCSC link" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-S2B-PH-SM4-TB-LF-SN_C295747.html"
-			(at 90.805 130.81 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +6969,7 @@
 			)
 		)
 		(property "PN" "JST S2B-PH-SM4-TB(LF)(SN) "
-			(at 90.805 130.81 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +6978,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C295747"
-			(at 90.805 130.81 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,6 +7207,100 @@
 		)
 	)
 	(symbol
+		(lib_id "keyboard:R_US")
+		(at 240.03 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8258e8c1-598a-4f72-9802-4939ca81b259")
+		(property "Reference" "R21"
+			(at 240.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 240.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyboard:R_0402_1005Metric"
+			(at 240.284 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-071K2L_C138040.pdf"
+			(at 240.03 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0402FR-071K2L"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C138040"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071K2L_C138040.html"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a53c3ae4-e3ad-49a2-84ba-06dc1bf400ad")
+		)
+		(pin "2"
+			(uuid "74138408-b66c-477d-9022-08bb0dfe97a3")
+		)
+		(instances
+			(project "zmk-g915"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 154.94 0)
 		(unit 1)
@@ -7196,24 +7368,23 @@
 	)
 	(symbol
 		(lib_id "keyboard:R_US")
-		(at 180.34 104.14 0)
+		(at 168.91 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88975f83-6d30-4ac8-898c-f0fafe67906b")
+		(uuid "8b4b06b4-45f3-4d6e-864f-e52fdc985ea7")
 		(property "Reference" "R14"
-			(at 180.34 99.06 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k2"
-			(at 180.34 101.6 0)
+		(property "Value" "R_US"
+			(at 168.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +7392,7 @@
 			)
 		)
 		(property "Footprint" "keyboard:R_0402_1005Metric"
-			(at 180.086 105.156 0)
+			(at 168.656 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7401,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-071K2L_C138040.pdf"
-			(at 180.34 104.14 90)
+			(at 168.91 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 104.14 0)
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7419,7 @@
 			)
 		)
 		(property "PN" "RC0402FR-071K2L"
-			(at 180.34 104.14 0)
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7428,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C138040"
-			(at 180.34 104.14 0)
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7437,7 @@
 			)
 		)
 		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071K2L_C138040.html"
-			(at 180.34 104.14 0)
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,13 +7446,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0ef278d-0cb0-49fd-a6ac-0cc5c938576a")
+			(uuid "2f5240e4-8af5-449c-ad43-2e5898e98723")
 		)
 		(pin "2"
-			(uuid "b879422e-2f33-4ddd-9048-858e1fe51c47")
+			(uuid "99d2b0ac-bd94-407e-bab6-9d37c29ccc71")
 		)
 		(instances
-			(project "Keyboard_60%"
+			(project "zmk-g915"
 				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
 					(reference "R14")
 					(unit 1)
@@ -7432,7 +7603,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
-		(at 184.15 92.71 0)
+		(at 251.46 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7441,7 +7612,7 @@
 		(fields_autoplaced yes)
 		(uuid "959658db-b2eb-4ea1-9253-dd1071b14402")
 		(property "Reference" "Q1"
-			(at 190.5 91.4399 0)
+			(at 257.81 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,7 +7621,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS"
-			(at 190.5 93.9799 0)
+			(at 257.81 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +7630,7 @@
 			)
 		)
 		(property "Footprint" "keyboard:SOT-23-3"
-			(at 189.23 90.17 0)
+			(at 256.54 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 92.71 0)
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +7648,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 184.15 92.71 0)
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,7 +7917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.805 137.16 0)
+		(at 90.17 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7755,7 +7926,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0790cda-c4a2-4f87-a3bb-8c88b7c0b007")
 		(property "Reference" "#PWR0396"
-			(at 90.805 143.51 0)
+			(at 90.17 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7764,7 +7935,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.805 142.24 0)
+			(at 90.17 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +7943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.805 137.16 0)
+			(at 90.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7781,7 +7952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.805 137.16 0)
+			(at 90.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +7961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.805 137.16 0)
+			(at 90.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,100 +8237,6 @@
 			(project "Keyboard_60%"
 				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
 					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keyboard:R_US")
-		(at 180.34 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdb57446-06da-4dbf-9415-f38ce1a9e8bf")
-		(property "Reference" "R15"
-			(at 180.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k2"
-			(at 180.34 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyboard:R_0402_1005Metric"
-			(at 180.086 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-071K2L_C138040.pdf"
-			(at 180.34 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "RC0402FR-071K2L"
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C138040"
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071K2L_C138040.html"
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f22fdfb-deb6-4c76-b852-9cbec225ef12")
-		)
-		(pin "2"
-			(uuid "63fdd078-8bbd-44c6-9177-7278ae817c41")
-		)
-		(instances
-			(project "Keyboard_60%"
-				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8951,7 +9028,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 181.61 86.36 180)
+		(at 248.92 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8959,7 +9036,7 @@
 		(dnp no)
 		(uuid "eab178ea-8f13-4367-840d-a098a585adc2")
 		(property "Reference" "D124"
-			(at 180.594 83.82 0)
+			(at 247.904 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,7 +9044,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 179.832 81.788 0)
+			(at 247.142 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,7 +9052,7 @@
 			)
 		)
 		(property "Footprint" "keyboard:LED_0603_1608Metric"
-			(at 181.61 86.36 0)
+			(at 248.92 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 86.36 0)
+			(at 248.92 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,7 +9070,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 181.61 86.36 0)
+			(at 248.92 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +9079,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 181.61 86.36 0)
+			(at 248.92 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +9104,8 @@
 	)
 	(symbol
 		(lib_id "keyboard:LED")
-		(at 167.64 104.14 0)
+		(at 160.02 111.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9035,7 +9113,7 @@
 		(dnp no)
 		(uuid "ec0346ee-60a3-482d-8996-783245075ec4")
 		(property "Reference" "D122"
-			(at 170.18 101.6 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9121,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 163.83 101.6 0)
+			(at 160.274 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +9129,7 @@
 			)
 		)
 		(property "Footprint" "keyboard:LED_0603_1608Metric"
-			(at 167.64 104.14 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +9138,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211030000_XINGLIGHT-XL-1608SURC-06_C965799.pdf"
-			(at 167.64 104.14 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,7 +9147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 104.14 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9156,7 @@
 			)
 		)
 		(property "PN" "XL-1608SURC-06"
-			(at 167.64 104.14 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +9165,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C965799"
-			(at 167.64 104.14 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9174,7 @@
 			)
 		)
 		(property "LCSC link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-1608SURC-06_C965799.html"
-			(at 167.64 104.14 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
