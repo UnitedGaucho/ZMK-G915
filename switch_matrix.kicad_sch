@@ -9,6 +9,17 @@
 		(company "HW-tinkerers")
 	)
 	(lib_symbols)
+	(text "NOTE:\nKey instance sheet numbers (see 'Schematic Hierarchy' tree. ctrl+H if not visible) are used to ensures keys and associated\ncomponents are annotated in an order that is compatible with kbplacer.\n\nThis hack was needed becuase kbplacer uses ref des's to determine which components go where. Re-numbering the instance sheets was the\neasiest way to get it all to work together with the least amount of effort.\nWith this in mind, adding or removing keys will require manual re-numbering."
+		(exclude_from_sim no)
+		(at 294.894 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2000e6a-a054-4083-934c-9c39e77dd2f9")
+	)
 	(wire
 		(pts
 			(xy 111.76 77.47) (xy 113.03 77.47)

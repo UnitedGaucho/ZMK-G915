@@ -2217,7 +2217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "keyboard:C_0402_1005Metric"
 			(at 146.05 82.55 0)
 			(effects
 				(font
@@ -3322,7 +3322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "keyboard:D_SOD-123F"
 			(at 154.94 114.3 0)
 			(effects
 				(font
@@ -4442,7 +4442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "keyboard:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 151.13 100.33 0)
 			(effects
 				(font
