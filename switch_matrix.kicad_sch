@@ -9238,7 +9238,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 367.03 47.5746 0)
 			(effects
 				(font
@@ -9404,7 +9404,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 167.64 29.7946 0)
 			(effects
 				(font
@@ -9487,7 +9487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 384.81 47.5746 0)
 			(effects
 				(font
@@ -11064,7 +11064,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 67.31 29.7946 0)
 			(effects
 				(font
@@ -13885,7 +13885,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 203.2 29.7946 0)
 			(effects
 				(font
@@ -14133,7 +14133,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 402.59 47.5746 0)
 			(effects
 				(font
@@ -16291,7 +16291,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 85.09 29.7946 0)
 			(effects
 				(font
@@ -17287,7 +17287,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 102.87 29.7946 0)
 			(effects
 				(font
@@ -17536,7 +17536,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 149.86 29.7946 0)
 			(effects
 				(font
@@ -17702,7 +17702,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 420.37 47.5746 0)
 			(effects
 				(font
@@ -18117,7 +18117,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 185.42 29.7946 0)
 			(effects
 				(font
@@ -18615,7 +18615,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "key-mem_rgb.kicad_sch"
 			(at 120.65 29.7946 0)
 			(effects
 				(font

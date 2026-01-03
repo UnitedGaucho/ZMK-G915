@@ -4282,6 +4282,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Use accurate resistors (<1%)"
+		(exclude_from_sim no)
+		(at 256.286 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15f3d598-79ab-4ab2-86eb-82491407e612")
+	)
 	(text "Voltage divider to \nmeasure battery voltage.\n\n"
 		(exclude_from_sim no)
 		(at 233.68 105.41 0)
@@ -6220,7 +6230,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 248.92 43.18 0)
 			(effects
 				(font
@@ -7208,7 +7218,7 @@
 	)
 	(symbol
 		(lib_id "keyboard:R_US")
-		(at 240.03 38.1 180)
+		(at 240.03 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7216,14 +7226,6 @@
 		(dnp no)
 		(uuid "8258e8c1-598a-4f72-9802-4939ca81b259")
 		(property "Reference" "R21"
-			(at 240.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_US"
 			(at 240.03 35.56 0)
 			(effects
 				(font
@@ -7231,8 +7233,16 @@
 				)
 			)
 		)
+		(property "Value" "100"
+			(at 240.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "keyboard:R_0402_1005Metric"
-			(at 240.284 37.084 0)
+			(at 239.776 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
