@@ -8989,7 +8989,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 102.87 47.5746 0)
 			(effects
 				(font
@@ -9072,7 +9072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 402.59 65.3546 0)
 			(effects
 				(font
@@ -9155,7 +9155,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 259.08 121.2346 0)
 			(effects
 				(font
@@ -9238,7 +9238,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 367.03 47.5746 0)
 			(effects
 				(font
@@ -9321,7 +9321,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 344.17 47.5746 0)
 			(effects
 				(font
@@ -9404,7 +9404,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 167.64 29.7946 0)
 			(effects
 				(font
@@ -9487,7 +9487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 384.81 47.5746 0)
 			(effects
 				(font
@@ -9570,7 +9570,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 148.59 47.5746 0)
 			(effects
 				(font
@@ -9653,7 +9653,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 402.59 121.2346 0)
 			(effects
 				(font
@@ -9736,7 +9736,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 205.74 79.3246 0)
 			(effects
 				(font
@@ -9819,7 +9819,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 308.61 79.3246 0)
 			(effects
 				(font
@@ -9902,7 +9902,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 198.12 65.3546 0)
 			(effects
 				(font
@@ -9985,7 +9985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 128.27 107.2646 0)
 			(effects
 				(font
@@ -10068,7 +10068,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 162.56 65.3546 0)
 			(effects
 				(font
@@ -10151,7 +10151,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 146.05 107.2646 0)
 			(effects
 				(font
@@ -10234,7 +10234,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 215.9 65.3546 0)
 			(effects
 				(font
@@ -10317,7 +10317,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 259.08 79.3246 0)
 			(effects
 				(font
@@ -10400,7 +10400,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 214.63 121.2346 0)
 			(effects
 				(font
@@ -10483,7 +10483,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 227.33 93.2946 0)
 			(effects
 				(font
@@ -10566,7 +10566,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 384.81 79.3246 0)
 			(effects
 				(font
@@ -10649,7 +10649,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 16.51 121.2346 0)
 			(effects
 				(font
@@ -10732,7 +10732,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 181.61 107.2646 0)
 			(effects
 				(font
@@ -10815,7 +10815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 367.03 107.2646 0)
 			(effects
 				(font
@@ -10898,7 +10898,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 120.65 93.2946 0)
 			(effects
 				(font
@@ -10981,7 +10981,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 270.51 107.2646 0)
 			(effects
 				(font
@@ -11064,7 +11064,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 67.31 29.7946 0)
 			(effects
 				(font
@@ -11147,7 +11147,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 38.1 47.5746 0)
 			(effects
 				(font
@@ -11230,7 +11230,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 420.37 114.8846 0)
 			(effects
 				(font
@@ -11313,7 +11313,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 233.68 65.3546 0)
 			(effects
 				(font
@@ -11396,7 +11396,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 384.81 65.3546 0)
 			(effects
 				(font
@@ -11479,7 +11479,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 241.3 79.3246 0)
 			(effects
 				(font
@@ -11562,7 +11562,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 74.93 107.2646 0)
 			(effects
 				(font
@@ -11645,7 +11645,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 217.17 107.2646 0)
 			(effects
 				(font
@@ -11728,7 +11728,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 326.39 107.2646 0)
 			(effects
 				(font
@@ -11811,7 +11811,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 234.95 121.2346 0)
 			(effects
 				(font
@@ -11893,7 +11893,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 92.71 107.2646 0)
 			(effects
 				(font
@@ -11976,7 +11976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 67.31 47.5746 0)
 			(effects
 				(font
@@ -12059,7 +12059,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 344.17 121.2346 0)
 			(effects
 				(font
@@ -12142,7 +12142,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 39.37 121.2346 0)
 			(effects
 				(font
@@ -12225,7 +12225,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 384.81 93.2946 0)
 			(effects
 				(font
@@ -12308,7 +12308,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 199.39 107.2646 0)
 			(effects
 				(font
@@ -12391,7 +12391,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 109.22 65.3546 0)
 			(effects
 				(font
@@ -12474,7 +12474,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 110.49 107.2646 0)
 			(effects
 				(font
@@ -12557,7 +12557,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 170.18 79.3246 0)
 			(effects
 				(font
@@ -12640,7 +12640,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 173.99 93.2946 0)
 			(effects
 				(font
@@ -12723,7 +12723,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 367.03 93.2946 0)
 			(effects
 				(font
@@ -12806,7 +12806,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 278.13 65.3546 0)
 			(effects
 				(font
@@ -12889,7 +12889,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 63.5 121.2346 0)
 			(effects
 				(font
@@ -12972,7 +12972,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 375.92 121.2346 0)
 			(effects
 				(font
@@ -13055,7 +13055,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 16.51 79.3246 0)
 			(effects
 				(font
@@ -13138,7 +13138,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 245.11 93.2946 0)
 			(effects
 				(font
@@ -13221,7 +13221,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 269.24 47.5746 0)
 			(effects
 				(font
@@ -13304,7 +13304,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 234.95 107.2646 0)
 			(effects
 				(font
@@ -13387,7 +13387,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 81.28 79.3246 0)
 			(effects
 				(font
@@ -13470,7 +13470,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 99.06 79.3246 0)
 			(effects
 				(font
@@ -13553,7 +13553,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 40.64 79.3246 0)
 			(effects
 				(font
@@ -13636,7 +13636,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 166.37 47.5746 0)
 			(effects
 				(font
@@ -13719,7 +13719,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 82.55 121.2346 0)
 			(effects
 				(font
@@ -13802,7 +13802,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 16.51 65.3546 0)
 			(effects
 				(font
@@ -13885,7 +13885,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 203.2 29.7946 0)
 			(effects
 				(font
@@ -13967,7 +13967,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 187.96 79.3246 0)
 			(effects
 				(font
@@ -14050,7 +14050,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 251.46 47.5746 0)
 			(effects
 				(font
@@ -14133,7 +14133,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 402.59 47.5746 0)
 			(effects
 				(font
@@ -14216,7 +14216,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 308.61 121.2346 0)
 			(effects
 				(font
@@ -14299,7 +14299,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 67.31 93.2946 0)
 			(effects
 				(font
@@ -14382,7 +14382,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 420.37 86.9446 0)
 			(effects
 				(font
@@ -14465,7 +14465,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 152.4 79.3246 0)
 			(effects
 				(font
@@ -14548,7 +14548,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 180.34 65.3546 0)
 			(effects
 				(font
@@ -14631,7 +14631,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 420.37 65.3546 0)
 			(effects
 				(font
@@ -14714,7 +14714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 52.07 107.2646 0)
 			(effects
 				(font
@@ -14797,7 +14797,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 63.5 79.3246 0)
 			(effects
 				(font
@@ -14880,7 +14880,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 326.39 79.3246 0)
 			(effects
 				(font
@@ -14963,7 +14963,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 308.61 65.3546 0)
 			(effects
 				(font
@@ -15046,7 +15046,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 251.46 65.3546 0)
 			(effects
 				(font
@@ -15129,7 +15129,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 144.78 65.3546 0)
 			(effects
 				(font
@@ -15212,7 +15212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 134.62 79.3246 0)
 			(effects
 				(font
@@ -15295,7 +15295,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 344.17 79.3246 0)
 			(effects
 				(font
@@ -15378,7 +15378,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 73.66 65.3546 0)
 			(effects
 				(font
@@ -15461,7 +15461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 16.51 107.2646 0)
 			(effects
 				(font
@@ -15544,7 +15544,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 41.91 93.2946 0)
 			(effects
 				(font
@@ -15627,7 +15627,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 201.93 47.5746 0)
 			(effects
 				(font
@@ -15710,7 +15710,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 120.65 47.5746 0)
 			(effects
 				(font
@@ -15793,7 +15793,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 163.83 107.2646 0)
 			(effects
 				(font
@@ -15876,7 +15876,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 91.44 65.3546 0)
 			(effects
 				(font
@@ -15959,7 +15959,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 127 65.3546 0)
 			(effects
 				(font
@@ -16042,7 +16042,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 384.81 107.2646 0)
 			(effects
 				(font
@@ -16125,7 +16125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 138.43 93.2946 0)
 			(effects
 				(font
@@ -16208,7 +16208,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 283.21 121.2346 0)
 			(effects
 				(font
@@ -16291,7 +16291,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 85.09 29.7946 0)
 			(effects
 				(font
@@ -16374,7 +16374,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 326.39 47.5746 0)
 			(effects
 				(font
@@ -16457,7 +16457,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 402.59 107.2646 0)
 			(effects
 				(font
@@ -16540,7 +16540,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 367.03 65.3546 0)
 			(effects
 				(font
@@ -16623,7 +16623,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 102.87 93.2946 0)
 			(effects
 				(font
@@ -16706,7 +16706,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 326.39 121.2346 0)
 			(effects
 				(font
@@ -16789,7 +16789,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 233.68 47.5746 0)
 			(effects
 				(font
@@ -16872,7 +16872,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 184.15 47.5746 0)
 			(effects
 				(font
@@ -16955,7 +16955,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 275.59 93.2946 0)
 			(effects
 				(font
@@ -17038,7 +17038,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 367.03 79.3246 0)
 			(effects
 				(font
@@ -17121,7 +17121,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 287.02 47.5746 0)
 			(effects
 				(font
@@ -17204,7 +17204,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 144.78 121.2346 0)
 			(effects
 				(font
@@ -17287,7 +17287,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 102.87 29.7946 0)
 			(effects
 				(font
@@ -17370,7 +17370,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 85.09 93.2946 0)
 			(effects
 				(font
@@ -17453,7 +17453,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 344.17 65.3546 0)
 			(effects
 				(font
@@ -17536,7 +17536,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 149.86 29.7946 0)
 			(effects
 				(font
@@ -17619,7 +17619,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 116.84 79.3246 0)
 			(effects
 				(font
@@ -17702,7 +17702,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 420.37 47.5746 0)
 			(effects
 				(font
@@ -17785,7 +17785,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 191.77 93.2946 0)
 			(effects
 				(font
@@ -17868,7 +17868,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 308.61 47.5746 0)
 			(effects
 				(font
@@ -17951,7 +17951,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 283.21 79.3246 0)
 			(effects
 				(font
@@ -18034,7 +18034,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 402.59 79.3246 0)
 			(effects
 				(font
@@ -18117,7 +18117,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 185.42 29.7946 0)
 			(effects
 				(font
@@ -18200,7 +18200,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 402.59 93.2946 0)
 			(effects
 				(font
@@ -18283,7 +18283,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 85.09 47.5746 0)
 			(effects
 				(font
@@ -18366,7 +18366,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 156.21 93.2946 0)
 			(effects
 				(font
@@ -18449,7 +18449,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 223.52 79.3246 0)
 			(effects
 				(font
@@ -18532,7 +18532,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 209.55 93.2946 0)
 			(effects
 				(font
@@ -18615,7 +18615,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key-mem_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key-mem_rgb.kicad_sch"
 			(at 120.65 29.7946 0)
 			(effects
 				(font
@@ -18698,7 +18698,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 326.39 65.3546 0)
 			(effects
 				(font
@@ -18781,7 +18781,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 38.1 65.3546 0)
 			(effects
 				(font
@@ -18864,7 +18864,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 16.51 93.2946 0)
 			(effects
 				(font
@@ -18947,7 +18947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_rgb.kicad_sch"
+		(property "Sheetfile" "addr-key_rgb.kicad_sch"
 			(at 55.88 65.3546 0)
 			(effects
 				(font
