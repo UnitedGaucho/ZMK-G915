@@ -3152,263 +3152,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "keyboard:Thermistor_NTC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor_NTC"
-				(at 3.175 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_NTC_0_1"
-				(arc
-					(start -3.175 2.413)
-					(mid -3.0506 2.3165)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.6144 2.9736)
-					(end -2.54 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.9736 2.6144)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.9736 1.9794)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.159)
-					(mid -2.6144 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.159 2.794)
-					(mid -2.434 2.5608)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
-						(xy -1.778 -3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermistor_NTC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "keyboard:USB-protection-diode"
 			(pin_names
 				(offset 0)
@@ -4313,9 +4056,9 @@
 		)
 		(uuid "2f778569-f67f-47da-bc82-c37b4304faa3")
 	)
-	(text "Theere are 3 charger IC which are\nfunctionally compatibility.\nBQ24073, BQ24074, BQ24075.\nAny one of thrm can be used.\nThey are all pin to pin compatible \nand the design is done in such a way\nthat you can swap out one for another \non same PCB and have same functionality."
+	(text "There are 3 charger IC which are\nfunctionally compatibility.\nBQ24073, BQ24074, BQ24075.\nAny one of them can be used.\nThey are all pin to pin compatible \nand the design is done in such a way\nthat you can swap out one for another \non same PCB and have same functionality."
 		(exclude_from_sim no)
-		(at 113.03 103.632 0)
+		(at 113.792 102.362 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4419,9 +4162,9 @@
 		)
 		(uuid "9af8f28b-9b6c-44ba-9a15-886000b0e24d")
 	)
-	(text "Rilim (R4) = 1.2k sets \nInput current \nlimit to 1.3A.\n\nTMR pin left unconnected \nto set default timings \nfor pre-charge and fast charge\ntimings.\n\nRiset (R3) = 8.2k sets \nbatt fast charge \ncurrent limit to 100mA."
+	(text "TS pin is for batt pack thermistor.\nConnect to GND through 10k res if\na thermistor is not used.\n\nRilim (R11) sets Input\ncurrent limit. 1.1k - 8k Ohms\nIinmax = Kilim/Rilim\n(Kilim: 1500-1720, 1610typ)\n\nTMR pin left unconnected \nto set default timings \nfor pre-charge and fast charge\ntimings.\n\nRiset (R12) sets charge\ncurrent limit. 590 - 8.9k Ohms\nIchg = Kiset/Riset (Kiset: 797-975, 890typ)"
 		(exclude_from_sim no)
-		(at 51.054 150.622 0)
+		(at 49.784 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4456,7 +4199,7 @@
 		)
 		(uuid "f24c026d-7c35-417c-8bc7-8614efbff273")
 	)
-	(text "Make it DNP to set default Termination current"
+	(text "Make it DNP to set default Termination current\nof 10% charge current"
 		(exclude_from_sim no)
 		(at 168.148 152.654 0)
 		(effects
@@ -8159,100 +7902,6 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:Thermistor_NTC")
-		(at 105.41 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc34551e-f1f2-45be-b917-f67c0130a0b8")
-		(property "Reference" "TH1"
-			(at 109.22 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 102.87 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "keyboard:R_0402_1005Metric"
-			(at 106.68 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-SDNT1005X103F3950FTF_C95939.pdf"
-			(at 106.68 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "SDNT1005X103F3950FTF"
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C95939"
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC link" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-NTC-span-Thermistors_Sunlord-SDNT1005X103F3950FTF_C95939.html"
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa396278-e635-4205-b222-4dbff00a4ee6")
-		)
-		(pin "2"
-			(uuid "92ac7d21-76fd-4587-9230-18fe8a2cd9d8")
-		)
-		(instances
-			(project "Keyboard_60%"
-				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Unified-Daughterboard-rescue:TYPE-C-31-M12_13-acheronSymbols")
 		(at 49.53 53.34 0)
 		(unit 1)
@@ -8832,6 +8481,100 @@
 			(project "Keyboard_60%"
 				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:R_US")
+		(at 105.41 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db6977a8-0c07-43d0-88be-531fc02d6332")
+		(property "Reference" "R20"
+			(at 105.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyboard:R_0402_1005Metric"
+			(at 105.156 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-071K2L_C138040.pdf"
+			(at 105.41 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0402FR-071K2L"
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C138040"
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071K2L_C138040.html"
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66b702c8-5ad7-4816-ae58-77e5298a8bfb")
+		)
+		(pin "2"
+			(uuid "e8c0e69b-d1da-4bdd-b8f4-8fdfaa841b41")
+		)
+		(instances
+			(project "zmk-g915"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/01d5aa47-03a0-4747-998b-393b2b88e5ef"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9531,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "VAL"
 			(at 113.03 137.16 0)
 			(effects
 				(font
