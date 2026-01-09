@@ -1,0 +1,311 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8769779b-8448-4c81-aa34-55e9d9d3b776")
+	(paper "User" 450 175)
+	(title_block
+		(date "2024-02-17")
+		(company "HW-tinkerers")
+	)
+	(lib_symbols)
+	(text "NOTE:\nKey instance sheet numbers (see 'Schematic Hierarchy' tree. ctrl+H if not visible) are used to ensures keys and associated\ncomponents are annotated in an order that is compatible with kbplacer.\n\nThis hack was needed becuase kbplacer uses ref des's to determine which components go where. Re-numbering the instance sheets was the\neasiest way to get it all to work together with the least amount of effort.\nWith this in mind, adding or removing keys will require manual re-numbering."
+		(exclude_from_sim no)
+		(at 294.894 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2000e6a-a054-4083-934c-9c39e77dd2f9")
+	)
+	(wire
+		(pts
+			(xy 19.05 -11.43) (xy 20.32 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177daa38-d427-498e-b605-52717b4bf0d2")
+	)
+	(wire
+		(pts
+			(xy 21.59 -8.89) (xy 20.32 -8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4249ef-a5dd-4860-b80e-228d9cb39bb3")
+	)
+	(wire
+		(pts
+			(xy 20.32 -7.62) (xy 20.32 -3.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e0ebfd-3e51-4d3f-b6ae-32dd34237b14")
+	)
+	(wire
+		(pts
+			(xy 20.32 -19.05) (xy 19.05 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687020d2-cfa6-4c43-9928-dfb878ff90f2")
+	)
+	(wire
+		(pts
+			(xy 19.05 -7.62) (xy 20.32 -7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f39fec8-3ce0-44d9-933b-e92ea35d3d0d")
+	)
+	(wire
+		(pts
+			(xy 20.32 -3.81) (xy 19.05 -3.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965fff31-e758-4a97-9a2a-2b50c64363b1")
+	)
+	(wire
+		(pts
+			(xy 20.32 -15.24) (xy 20.32 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c46cc9d-7c74-4f84-a364-0ff9bf3801b6")
+	)
+	(wire
+		(pts
+			(xy -1.27 -15.24) (xy 0 -15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adce202a-0a36-4247-a817-571f6af8df70")
+	)
+	(wire
+		(pts
+			(xy -1.27 -7.62) (xy 0 -7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31c2bf1-d608-490e-90dd-d447c38e7074")
+	)
+	(wire
+		(pts
+			(xy 20.32 -8.89) (xy 20.32 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc43e3cd-f7c6-4790-8871-7b435b40f3fc")
+	)
+	(wire
+		(pts
+			(xy -1.27 -11.43) (xy 0 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05f90db-c01b-41c8-b732-252c354e9b0d")
+	)
+	(wire
+		(pts
+			(xy 19.05 -15.24) (xy 20.32 -15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9eb990-7001-4561-9f80-d62d0055ef6b")
+	)
+	(hierarchical_label "ROW1"
+		(shape passive)
+		(at 19.05 -3.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33a8fc8e-e14e-47e4-880f-e0603a9557b2")
+	)
+	(hierarchical_label "COL1"
+		(shape passive)
+		(at 21.59 -8.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c2ccdbf-c42d-41e7-8784-fd54d9575d4f")
+	)
+	(hierarchical_label "LSW1"
+		(shape passive)
+		(at -1.27 -7.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cc974d2-2778-4dae-9089-bf415a979c91")
+	)
+	(hierarchical_label "LCS1"
+		(shape passive)
+		(at 19.05 -19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2e3eda5-e282-4147-ac07-e60937edc0d7")
+	)
+	(hierarchical_label "LSW3"
+		(shape passive)
+		(at -1.27 -15.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ccfb37f6-fe28-4246-bab6-41e7dd5dba7e")
+	)
+	(hierarchical_label "LSW2"
+		(shape passive)
+		(at -1.27 -11.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d722267f-94c8-418e-896b-3325adc67aaf")
+	)
+	(sheet
+		(at 0 -17.272)
+		(size 19.05 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f04aceb-69bd-446c-b5e2-8b759a56e21d")
+		(property "Sheetname" "EXAMPLE"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "key_rgb.kicad_sch"
+			(at 0 -5.2574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "ANODE" passive
+			(at 19.05 -15.24 0)
+			(uuid "45149e20-41db-40bc-a963-ee53999f6d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BLUE" passive
+			(at 0 -7.62 180)
+			(uuid "9463cf0f-506f-4079-83ab-b269431aec37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GREEN" passive
+			(at 0 -11.43 180)
+			(uuid "e6053467-89d5-44df-8d4b-457415d81915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KEY_IN" passive
+			(at 19.05 -11.43 0)
+			(uuid "2a05a72d-a299-4695-a135-938db929036a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEY_OUT" passive
+			(at 19.05 -7.62 0)
+			(uuid "0c2741ae-775a-4942-b6a9-f3933913d286")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RED" passive
+			(at 0 -15.24 180)
+			(uuid "d37baa6b-748e-46c1-97c9-1181b9abe1f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "zmk-g915"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/45c5f3d6-3be9-46e6-9c92-280cf0e0d840"
+					(page "4")
+				)
+			)
+		)
+	)
+)

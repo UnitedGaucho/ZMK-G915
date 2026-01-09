@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "key-mem_rgb.kicad_prl",
+    "filename": "key.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
