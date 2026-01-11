@@ -433,10 +433,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d49cb78-42e3-49b3-b422-17dc434eed55")
+			(uuid "e34ae1ca-c6de-4217-b9b6-7629f9220618")
 		)
 		(pin "2"
-			(uuid "2fca170b-3fb5-41ac-80b2-3f967c8a8a65")
+			(uuid "2c4a559e-027b-4927-a09e-fcc3b3393784")
 		)
 		(instances
 			(project "zmk-g915"
@@ -573,10 +573,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "95827aad-e5c2-4f60-ba64-0f838497d4a4")
+			(uuid "c63966e2-abdb-452a-a54c-64c24ff420e7")
 		)
 		(pin "2"
-			(uuid "b8788055-3df2-4625-9a55-bac9ebce1fb1")
+			(uuid "53b5e879-c0ca-4ad4-8654-90ce5fa1146f")
 		)
 		(instances
 			(project "zmk-g915"

@@ -4,12 +4,6 @@
 	(generator_version "9.0")
 	(uuid "5256b5da-6b7d-4eab-bae0-ff7680d0d138")
 	(paper "A4")
-	(title_block
-		(title "USB and Power Path ")
-		(date "2024-02-17")
-		(rev "1.0")
-		(company "HW-tinkerers")
-	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
