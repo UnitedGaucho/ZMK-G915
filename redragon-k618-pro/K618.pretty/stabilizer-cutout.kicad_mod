@@ -1,0 +1,83 @@
+(footprint "stabilizer-cutout"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11.57 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bae49b09-e89d-441a-8e72-99230d36f932")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "stabilizer-cutout"
+		(at 0 -10.07 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0a2e309-b5b8-48f5-be34-7f6fdfa90b28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5421d7be-0650-4968-a81f-10bcc9fd4e35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6d692e8-8b53-4d78-ba1e-349ffa4f2358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
+			(xy 1.925 -2.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "daa0d3b8-ebd7-4013-ba42-482e783b6dfa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7eabc753-1bc8-4154-aeb3-dbcd9606e5a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
