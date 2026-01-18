@@ -639,7 +639,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
+		(property "Reference" "LED"
 			(at 0 9.398 0)
 			(effects
 				(font
@@ -727,6 +727,17 @@
 			)
 		)
 		(symbol "LED_ARGB_0_1"
+			(rectangle
+				(start -2.794 8.382)
+				(end 2.794 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy -1.27 6.35) (xy -1.27 3.81)
@@ -1044,17 +1055,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(rectangle
-				(start 2.794 8.382)
-				(end -2.794 -7.62)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
