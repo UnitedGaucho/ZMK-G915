@@ -712,7 +712,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "01992e9e-127e-49d2-a7af-b4c13cb31afa")
-		(at 427.3325 358.264)
+		(at 442.785 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX118"
@@ -2697,7 +2697,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "0731d885-aa2c-4e48-b622-9fafe22e83a3")
-		(at 446.3325 310.764)
+		(at 461.785 150.214)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX72"
@@ -3277,7 +3277,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "085a94df-1dda-43cb-a95d-52f5b6374f3e")
-		(at 203.3225 320.264)
+		(at 218.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX81"
@@ -4981,7 +4981,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "0c4d14a3-bac8-42fe-9e35-d39132e93a56")
-		(at 279.1 320.2)
+		(at 279.2 320.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -5035,8 +5035,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -5044,7 +5044,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "6d280b7c-c2a8-4d8d-9fba-0552a778820e")
+			(uuid "d242ffcf-23a3-45d8-8621-5c92c6b4c5d0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -5063,7 +5063,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "0c5e6f83-0f9e-4eaf-b8ba-095d42082f90")
-		(at 44.1975 320.264)
+		(at 59.65 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX73"
@@ -6790,7 +6790,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "0e92539f-a3a6-407f-b16f-1c0da542e085")
-		(at 103.5725 301.264)
+		(at 119.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX55"
@@ -7370,7 +7370,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "0f452be9-03dd-4748-a9c3-29e46a0e37c3")
-		(at 346.2025 260.3)
+		(at 361.655 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX25"
@@ -9924,8 +9924,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -9933,7 +9933,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "00a7249f-c12f-4f16-946e-aa5e4bc3e0eb")
+			(uuid "f2d9bc91-5324-4620-9d18-0d88e5d82ea4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 90)
@@ -11985,7 +11985,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "178ef6fa-caa1-4139-979a-368b28a39981")
-		(at 427.3325 320.264)
+		(at 442.785 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX88"
@@ -12565,7 +12565,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "183118a1-c150-4b33-97fa-1f9cabf95ebd")
-		(at 189.0725 282.264)
+		(at 204.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX39"
@@ -13340,7 +13340,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "18aa7cba-b6c1-4012-b523-884d4d2ccc47")
-		(at 141.5725 301.264)
+		(at 157.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX57"
@@ -15390,7 +15390,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "1e9ecb74-288e-4056-b9b7-1f16578e9a51")
-		(at 217.5725 260.3)
+		(at 233.025 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX19"
@@ -18067,7 +18067,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "2590a22b-f994-4618-bbd7-d9dc77c536ff")
-		(at 286.4475 339.264)
+		(at 301.9 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX100"
@@ -18928,7 +18928,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "27c40488-6b8d-4587-9f2f-15731a93ec1e")
-		(at 65.5725 301.264)
+		(at 81.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX53"
@@ -20255,7 +20255,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "290d7725-59e8-4757-932c-16fe2ecfcbe9")
-		(at 365.2025 358.264)
+		(at 380.655 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX116"
@@ -20835,7 +20835,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "2a09a254-ada8-40b3-bb21-6f1f2ba7b561")
-		(at 179.5725 301.264)
+		(at 195.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX59"
@@ -22691,7 +22691,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "2c936112-1c1a-41ab-9ae2-a604b0d7e863")
-		(at 346.2025 282.264)
+		(at 361.655 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX46"
@@ -23271,7 +23271,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "2ca084e6-17ff-42c7-9661-9fc1d6d82901")
-		(at 174.8225 339.264)
+		(at 190.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX95"
@@ -24046,7 +24046,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "2db02fdc-50e6-4fe6-938e-2e3591be5f2e")
-		(at 84.5725 301.264)
+		(at 100.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX54"
@@ -25383,7 +25383,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "35e2338d-a1a9-4299-b9ab-09db5d4b2c12")
-		(at 160.5725 301.264)
+		(at 176.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX58"
@@ -25963,7 +25963,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "36b6788f-9f48-4797-92cc-8f0aa1d23e4d")
-		(at 303.1 320.2)
+		(at 303.2 320.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -26017,8 +26017,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -26026,7 +26026,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "30d072ec-2c77-42a3-b35a-d891ed0267ee")
+			(uuid "99ba9be8-4a42-4ad3-b265-aa5c7813b32f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -27817,7 +27817,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "3a4fe8a3-4abb-4d50-9402-93195bd1b28a")
-		(at 48.9475 339.264)
+		(at 64.4 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX89"
@@ -28397,7 +28397,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "3a72eefe-0172-45fb-9356-a78de09ffb21")
-		(at 390.9 260.3)
+		(at 406.3525 99.75)
 		(property "Reference" "MX27"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -29146,7 +29146,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "3bc8c79a-90b9-47c9-a2c2-42fe813741fb")
-		(at 305.5 282.2)
+		(at 305.55 282.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -29200,8 +29200,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -29209,7 +29209,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "2ad39289-5219-4749-a732-15316d7bc2d7")
+			(uuid "1ccdc7a3-4605-43ae-b218-f7bd9eb94faf")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -29228,7 +29228,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "3bd30ef1-54c7-4334-a829-52d1359e1215")
-		(at 327.2025 282.264)
+		(at 342.655 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX45"
@@ -30240,7 +30240,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "3d273681-1e55-41d6-97a1-051676b64c59")
-		(at 179.5725 260.3)
+		(at 195.025 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX17"
@@ -31616,7 +31616,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "3da9247e-9c4f-49c2-8acc-68488fd90af0")
-		(at 426.81 260.3)
+		(at 442.2625 99.75)
 		(property "Reference" "MX29"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -32042,7 +32042,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "3f911981-9cf4-4ea7-8078-b01f1faecf97")
-		(at 265.0725 260.3)
+		(at 280.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX21"
@@ -32622,7 +32622,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "3f961370-5ed2-43a1-a558-d9272faa7930")
-		(at 300.6975 358.264)
+		(at 316.15 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX113"
@@ -33202,7 +33202,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "3fce6619-098a-4e2c-b563-49a6cabfd769")
-		(at 250.8225 339.264)
+		(at 266.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX99"
@@ -33782,7 +33782,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "3ff34f9c-3579-4354-a26c-a460bf9fd0d6")
-		(at 297.325 241.3)
+		(at 312.7775 80.75)
 		(property "Reference" "MX7"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -35066,7 +35066,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "418e840c-12cc-4f1e-9adf-6384b18968a5")
-		(at 208.0725 282.264)
+		(at 223.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX40"
@@ -35646,7 +35646,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "41dba444-582b-4deb-905c-740955b27477")
-		(at 170.0725 282.264)
+		(at 185.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX38"
@@ -38242,7 +38242,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "474f9f9b-7416-4cfe-b529-108e90e1e96c")
-		(at 389.3325 282.264)
+		(at 404.785 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX48"
@@ -40140,7 +40140,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "49ce9958-9d84-40ab-a572-bddf47dc049c")
-		(at 132.0725 260.3)
+		(at 147.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX15"
@@ -41475,7 +41475,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "4b6f5ebe-3ee3-4f63-ba6c-75eaeac99c21")
-		(at 444.765 260.3)
+		(at 460.2175 99.75)
 		(property "Reference" "MX30"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -41921,7 +41921,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "4c3d9238-4ef8-44d4-99cf-d5b8c224000d")
-		(at 94.0725 260.3)
+		(at 109.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX13"
@@ -43408,7 +43408,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "4deef93a-a0da-4cd6-babf-fae06eca2aa2")
-		(at 351.19 241.3)
+		(at 366.6425 80.75)
 		(property "Reference" "MX10"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -43834,7 +43834,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "4e4088c0-a3d2-4303-94f4-2cd741741bae")
-		(at 94.0725 282.264)
+		(at 109.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX34"
@@ -45452,7 +45452,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "51c9506b-d1ee-4e75-b7ad-e7f9eb718b46")
-		(at 151.0725 282.264)
+		(at 166.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX37"
@@ -46032,7 +46032,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "51e1f721-3e54-47ea-b91e-55670d4d14e2")
-		(at 86.9475 358.264)
+		(at 102.4 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX108"
@@ -47088,7 +47088,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "522f8de6-340b-4648-8413-e5bbcafb4c8e")
-		(at 408.3325 301.264)
+		(at 423.785 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX70"
@@ -47949,7 +47949,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "540c7a2c-0824-47db-8ce8-5f06280d88a7")
-		(at 246.0725 282.264)
+		(at 261.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX42"
@@ -50041,7 +50041,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "58157ea0-51f3-4ac9-a5dd-f3c4a594f2d3")
-		(at 117.8225 339.264)
+		(at 133.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX92"
@@ -50621,7 +50621,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "5956c6fe-7e6e-4c86-a72a-477cced5bed9")
-		(at 389.3325 339.264)
+		(at 404.785 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX102"
@@ -51482,7 +51482,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "5bab8553-7b6c-4ceb-9103-32c680d54ecb")
-		(at 136.8225 339.264)
+		(at 152.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX93"
@@ -52257,7 +52257,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "5c1d586c-b988-4a08-9236-8918f8e40653")
-		(at 365.2025 301.264)
+		(at 380.655 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX68"
@@ -52834,6 +52834,88 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "K618:stabilizer-cutout"
+		(layer "F.Cu")
+		(uuid "5c418967-e470-4717-97c3-ba424b1b6a7f")
+		(at 493.9 328.75)
+		(property "Reference" "REF**"
+			(at 0 -11.57 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d61eb57d-e5ff-4629-aa6e-dd3b1764ea3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "stabilizer-cutout"
+			(at 0 -10.07 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6e4fec96-84b1-4a35-98fe-7a2a2b31ea3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8a59c86-35b7-4d9b-9144-739f7c93ce5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd0d9d4d-7d59-4580-bcfb-ef6d66c0e05c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_poly
+			(pts
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "Edge.Cuts")
+			(uuid "66fad08c-1615-43ef-92b6-77f2354f89c2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -8.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "77963b27-e1e2-42f1-b9ee-a1927f704a90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "keyboard:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5c42ab27-12af-448d-823f-560f6e6a7aed")
@@ -53313,7 +53395,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "5cb2fc38-e131-4ca7-a0fe-a3313e8576fa")
-		(at 212.8225 339.264)
+		(at 228.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX97"
@@ -56085,7 +56167,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "644fd9e2-47e9-4f0c-a8e2-d9f24cc747c7")
-		(at 70.3225 320.264)
+		(at 85.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX74"
@@ -56768,7 +56850,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "65585670-cfcb-40ba-a2b3-24a70214a13a")
-		(at 55.55 241.3)
+		(at 71.0025 80.75)
 		(property "Reference" "MX1"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -57280,7 +57362,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "667886af-4694-4799-a755-3813772cc58b")
-		(at 229.4475 358.264)
+		(at 244.9 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX110"
@@ -58678,7 +58760,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "6845a26c-b6a5-4eec-a329-0d24889934a0")
-		(at 408.3325 320.264)
+		(at 423.785 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX87"
@@ -60142,7 +60224,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "693d33d6-173d-4b9e-a44c-462c27d9b0fc")
-		(at 279.37 241.3)
+		(at 294.8225 80.75)
 		(property "Reference" "MX6"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -60806,7 +60888,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "6ae14e5a-fd6a-421d-be67-18dfe392ee07")
-		(at 63.1975 358.264)
+		(at 78.65 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX107"
@@ -61989,7 +62071,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "6b4c32e7-972a-4f57-b060-dcac6e97089e")
-		(at 276.9475 358.264)
+		(at 292.4 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX112"
@@ -63326,7 +63408,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "6d4196d1-2eba-49cc-9e90-877416a5f6a8")
-		(at 427.3325 282.264)
+		(at 442.785 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX50"
@@ -64970,7 +65052,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "6fe325af-752d-4c64-90f7-c75b21631a47")
-		(at 36.85 339.25)
+		(at 36.9 339.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -65024,8 +65106,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -65033,7 +65115,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "dcb102fd-c69f-4b69-b049-8eab318f3c28")
+			(uuid "0ad7422b-67f8-4f4f-9fd1-24aed7a0abc1")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -65247,7 +65329,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "711588f3-1546-428d-a06c-901193638925")
-		(at 75.0725 282.264)
+		(at 90.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX33"
@@ -67418,7 +67500,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "759fc177-52e3-416c-8a77-ef167d2d0d72")
-		(at 98.8225 339.264)
+		(at 114.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX91"
@@ -68709,7 +68791,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "76a4a47c-e8ae-497b-b0fa-7f878d33a9e1")
-		(at 109.415 241.3)
+		(at 124.8675 80.75)
 		(property "Reference" "MX4"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -70973,7 +71055,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "7965936b-40ef-45a3-829a-fe9bfd66e1b9")
-		(at 113.0725 260.3)
+		(at 128.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX14"
@@ -71553,7 +71635,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "79bbd601-1774-4a43-b719-42a42e314174")
-		(at 241.3225 320.264)
+		(at 256.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX83"
@@ -72414,7 +72496,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "7b2f367d-b2a6-4d25-8305-ec4a7e120e16")
-		(at 39.4475 358.264)
+		(at 54.9 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX106"
@@ -75318,7 +75400,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "839510b3-e069-4d9a-852b-d593dde2441d")
-		(at 231.8225 339.264)
+		(at 247.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX98"
@@ -75898,7 +75980,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "83a82c42-0b87-47c9-9ecf-1da31488cc95")
-		(at 365.2025 260.3)
+		(at 380.655 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX26"
@@ -77387,7 +77469,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "856c796f-984e-4dcd-8a4a-8bc942af95fe")
-		(at 227.0725 282.264)
+		(at 242.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX41"
@@ -77967,7 +78049,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "858354c6-c599-4a71-a7af-3645bd07236a")
-		(at 165.3225 320.264)
+		(at 180.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX79"
@@ -78828,7 +78910,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "871eaf3c-b9a2-4236-b951-29a6f50efabf")
-		(at 75.0725 260.3)
+		(at 90.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX12"
@@ -79798,7 +79880,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "88d50892-e5a7-4369-b31c-e8dbfda58928")
-		(at 127.3225 320.264)
+		(at 142.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX77"
@@ -81091,7 +81173,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "8bd67fa1-449c-458d-9a5e-6b83ec688c0a")
-		(at 427.3325 339.264)
+		(at 442.785 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX104"
@@ -81671,7 +81753,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "8c5f3721-f57f-4fea-826b-2682e88c819b")
-		(at 155.8225 339.264)
+		(at 171.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX94"
@@ -82251,7 +82333,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "8cb1015e-37ea-4524-9d78-d45f4007c4e6")
-		(at 389.3325 301.264)
+		(at 404.785 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX69"
@@ -82831,7 +82913,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "8cd150b5-2f65-4d32-ba16-58b7182bf36b")
-		(at 365.2025 282.264)
+		(at 380.655 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX47"
@@ -84210,7 +84292,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "92697cb3-82e4-44e5-aace-63618380e21e")
-		(at 89.3225 320.264)
+		(at 104.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX75"
@@ -85180,7 +85262,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "948760af-0b98-4529-bd56-483979eb6b60")
-		(at 327.2025 301.264)
+		(at 342.655 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX66"
@@ -88426,7 +88508,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "9cc44ce3-d9a7-4b81-b943-9e0a51f99a2d")
-		(at 260.3225 320.264)
+		(at 275.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX84"
@@ -89396,7 +89478,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "a1450bcf-5a67-4ec9-bb53-d4f87f16c9e9")
-		(at 410.7 358.25)
+		(at 410.75 358.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -89450,8 +89532,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -89459,7 +89541,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "2898dd51-c20e-4063-af22-fe6ad373dafb")
+			(uuid "26364297-d0fc-43d3-8767-9db4db24e69c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -91565,8 +91647,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -91574,7 +91656,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "601b9b9a-4758-4932-9334-34ef08ec0b9e")
+			(uuid "f17502c5-3243-472d-9fa1-eb30990800c6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 90)
@@ -91593,7 +91675,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "a8a8c743-78e3-435c-a820-f9bdba8c9465")
-		(at 60.9 339.25)
+		(at 60.9 339.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -91647,8 +91729,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -91656,7 +91738,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "e6a73496-032c-421c-8a23-020c5cd7398e")
+			(uuid "5d1f43fc-fc30-4161-af9a-415229853c84")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -93274,7 +93356,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "ad36aa7b-8d5e-41c1-ad46-3058f0b18765")
-		(at 446.3325 282.264)
+		(at 461.785 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX51"
@@ -95148,7 +95230,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "af2e4703-d584-4e45-8ef1-353653103380")
-		(at 73.505 241.3)
+		(at 88.9575 80.75)
 		(property "Reference" "MX2"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -96044,7 +96126,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "b0778ef7-c45f-430e-801d-1aba25d59a9d")
-		(at 198.5725 301.264)
+		(at 214.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX60"
@@ -96819,7 +96901,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "b2a1b713-e90e-4227-9abb-bc7a55a251ff")
-		(at 265.0725 282.264)
+		(at 280.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX43"
@@ -97399,7 +97481,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "b3152615-4f5e-4393-a8ce-9decc780b258")
-		(at 217.5725 301.264)
+		(at 233.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX61"
@@ -98389,7 +98471,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "b4de6091-8114-4baa-923c-84d084dbc3f3")
-		(at 408.855 260.3)
+		(at 424.3075 99.75)
 		(property "Reference" "MX28"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -99137,7 +99219,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "b60db62c-3fbb-4e80-a5f9-e1faf9851cfa")
-		(at 255.5725 301.264)
+		(at 271.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX63"
@@ -100107,7 +100189,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "b739b35e-cb08-4aaf-b5e2-6559066f0323")
-		(at 293.5725 282.264)
+		(at 309.025 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX44"
@@ -100687,7 +100769,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "b7c77634-3015-4c13-8ab9-37ced9096a54")
-		(at 303.0725 260.3)
+		(at 318.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX23"
@@ -101267,7 +101349,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "b7cf7233-3046-484d-bf86-86fd68e28cfc")
-		(at 408.3325 339.264)
+		(at 423.785 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX103"
@@ -102042,7 +102124,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "bb15a5a0-f9e2-42d1-ae64-887ca7acfb1b")
-		(at 146.3225 320.264)
+		(at 161.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX78"
@@ -102622,7 +102704,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "bd3003be-f070-4077-94ab-e458d97f8270")
-		(at 132.0725 282.264)
+		(at 147.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX36"
@@ -103483,7 +103565,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "bdc6045d-666c-4de7-ac4e-b09308357d1e")
-		(at 37.0725 282.264)
+		(at 52.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX31"
@@ -104063,7 +104145,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "be10c87f-fac9-4b28-bddf-37fd7b12e296")
-		(at 446.3325 348.764)
+		(at 461.785 188.214)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX105"
@@ -104924,7 +105006,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "be4c5eb7-3f7d-4362-a63e-912f9876b367")
-		(at 208.15 358.25)
+		(at 208.15 358.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -104978,8 +105060,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -104987,7 +105069,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "cbb6d069-7332-4ce1-baf7-5956ee363500")
+			(uuid "214f1283-7007-4d8c-a3cd-bfdeac81c58e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -105934,7 +106016,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "c1e50d82-6073-4428-95db-8ad1109ad863")
-		(at 108.15 358.25)
+		(at 108.15 358.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -105988,8 +106070,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -105997,7 +106079,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "895c3410-2c26-4978-b71e-56290eecefac")
+			(uuid "1b7d4ac4-643e-4b3a-bf42-2d1c3f2acacb")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -106016,7 +106098,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "c20134d0-a386-4a75-baaa-1ebb2b050f4e")
-		(at 160.5725 260.3)
+		(at 176.025 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX16"
@@ -106791,7 +106873,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "c2799ecd-bd41-4f8c-baa2-f0ee322c48d9")
-		(at 444.15 324.75 90)
+		(at 444.15 324.8 90)
 		(property "Reference" "REF**"
 			(at 0 -11.57 90)
 			(unlocked yes)
@@ -106845,8 +106927,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -106854,7 +106936,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "5ed0b30e-7f2e-4ffb-85dc-480f1578d3a8")
+			(uuid "61fd0bad-7d6a-428c-a03e-9759b3b5e3c0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 90)
@@ -107435,7 +107517,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "c37802db-ba75-4fed-b44a-a27648f2dd46")
-		(at 158.1975 358.264)
+		(at 173.65 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX109"
@@ -108729,7 +108811,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "c484862f-a88f-443b-a809-d056ec719b49")
-		(at 222.3225 320.264)
+		(at 237.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX82"
@@ -111770,7 +111852,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "caf7a120-00f6-43a5-a56e-9217fb4ad520")
-		(at 122.5725 301.264)
+		(at 138.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX56"
@@ -112350,7 +112432,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "cb058317-3095-4244-a88b-3cd95f78d60c")
-		(at 41.8225 301.264)
+		(at 57.275 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX52"
@@ -113320,7 +113402,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "cbcfc521-ed3c-4ff9-8c99-a3d2d642716e")
-		(at 327.2025 260.3)
+		(at 342.655 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX24"
@@ -114722,7 +114804,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "cced88e7-2b7b-4924-98db-6c39c0669ab2")
-		(at 298.3225 301.264)
+		(at 313.775 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX65"
@@ -115583,7 +115665,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "cd54d4e7-1908-40d4-b84c-d30d25aab141")
-		(at 79.8225 339.264)
+		(at 95.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX90"
@@ -116163,7 +116245,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "cf42f0d5-2112-440b-857f-1bcf4fdc9471")
-		(at 184.3225 320.264)
+		(at 199.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX80"
@@ -116938,7 +117020,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "cf6aeb8a-14b6-4de8-b259-76be401ad5d3")
-		(at 274.5725 301.264)
+		(at 290.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX64"
@@ -117799,7 +117881,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "cfcda140-6dc5-4497-ba82-d72bad8d9822")
-		(at 291.1975 320.264)
+		(at 306.65 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX85"
@@ -118379,7 +118461,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "cffb243a-9b71-4887-b35d-4572fad32383")
-		(at 236.5725 301.264)
+		(at 252.025 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX62"
@@ -118959,7 +119041,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "d068cc43-c68a-4c71-96ba-0f7154e6c978")
-		(at 91.46 241.3)
+		(at 106.9125 80.75)
 		(property "Reference" "MX3"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -119512,7 +119594,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "d1a29589-2eb0-4ac7-ba32-29b001244314")
-		(at 444.15 300.75 90)
+		(at 444.15 300.8 90)
 		(property "Reference" "REF**"
 			(at 0 -11.57 90)
 			(unlocked yes)
@@ -119566,8 +119648,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -119575,7 +119657,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "3d0addea-4a0f-4170-b4f8-376b962f3e3f")
+			(uuid "def8ccf9-fe93-4c73-a0d5-7f0c666c3998")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 90)
@@ -119594,7 +119676,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "d269c204-642f-4236-9cd1-9f9969f72a4a")
-		(at 427.3325 301.264)
+		(at 442.785 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX71"
@@ -120455,7 +120537,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "d3eed0cf-001f-4d8a-9c47-43a99ecd12aa")
-		(at 127.37 241.3)
+		(at 142.8225 80.75)
 		(property "Reference" "MX5"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -121204,7 +121286,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "d4a6dcaf-3785-492d-b96f-1018b109375c")
-		(at 298.35 339.25)
+		(at 298.4 339.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -121258,8 +121340,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -121267,7 +121349,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "5c39b6cd-f7ed-4093-ac52-22f25fa1634c")
+			(uuid "ef584d15-2427-4206-8e44-71009915df43")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -121286,7 +121368,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "d50cd4df-bdcf-4454-91b8-95f71a17243f")
-		(at 315.28 241.3)
+		(at 330.7325 80.75)
 		(property "Reference" "MX8"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -121798,7 +121880,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "d63cf292-44c9-44b0-90a4-6a045062cd8a")
-		(at 284.0725 260.3)
+		(at 299.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX22"
@@ -124325,7 +124407,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "db1b4974-d3f4-432e-9930-050f74ab7757")
-		(at 346.2025 358.264)
+		(at 361.655 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX115"
@@ -125619,7 +125701,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "ddb35da8-3ab4-418b-9896-db4735c039ce")
-		(at 327.2025 358.264)
+		(at 342.655 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX114"
@@ -126480,7 +126562,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "de24d75d-6a77-4461-8b65-d6b86adf0fee")
-		(at 398.8325 358.264)
+		(at 414.285 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX117"
@@ -127450,7 +127532,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "e1f86d3a-9b16-4cc2-94eb-eec533496dbe")
-		(at 281.5 282.2)
+		(at 281.55 282.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -127504,8 +127586,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -127513,7 +127595,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "ea68b3bc-733b-43b0-a1cc-10bfe4dbc375")
+			(uuid "1859fadd-0e7a-49b1-a596-c31fe40a082d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -127532,7 +127614,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "e2ce6b1c-04fe-4da6-8d34-f9ce447fb12f")
-		(at 37.0725 260.3)
+		(at 52.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX11"
@@ -128350,7 +128432,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "e5833357-6e3a-46d9-8937-728a3050dfe8")
-		(at 346.2025 339.264)
+		(at 361.655 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX101"
@@ -128930,7 +129012,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "e59c032c-86d9-4ab4-958e-0c557b910cb8")
-		(at 56.0725 282.264)
+		(at 71.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX32"
@@ -129791,7 +129873,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "e62418ad-d6ce-4d64-85fd-4bcd93682939")
-		(at 108.3225 320.264)
+		(at 123.775 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX76"
@@ -130566,7 +130648,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "e71704b1-65ec-41d5-8588-5432a688d34f")
-		(at 198.5725 260.3)
+		(at 214.025 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX18"
@@ -131427,7 +131509,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "e9492b6c-b59d-4776-9f5d-070bf5c5f60c")
-		(at 246.0725 260.3)
+		(at 261.525 99.75)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX20"
@@ -132202,7 +132284,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "eaa1db1c-055a-451f-b582-d873d4f24444")
-		(at 274.35 339.25)
+		(at 274.4 339.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -132256,8 +132338,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -132265,7 +132347,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "c5063f78-eff4-4247-86c4-2e6fd324e9af")
+			(uuid "70592005-7291-4d8f-a8c5-a8e05d6c4990")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -132284,7 +132366,7 @@
 	(footprint "K618:stabilizer-cutout"
 		(layer "F.Cu")
 		(uuid "eabff88a-760c-4097-bf7f-4d133bf92db7")
-		(at 386.75 358.25)
+		(at 386.75 358.2)
 		(property "Reference" "REF**"
 			(at 0 -11.57 0)
 			(unlocked yes)
@@ -132338,8 +132420,8 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-				(xy 1.925 -2.4)
+				(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75)
+				(xy 3.75 7.75) (xy 3.75 -2.4)
 			)
 			(stroke
 				(width 0)
@@ -132347,7 +132429,7 @@
 			)
 			(fill yes)
 			(layer "Edge.Cuts")
-			(uuid "92ff963a-381d-4b50-8836-cfdc1b9d2bcb")
+			(uuid "229b4d73-6646-49c6-af92-e4c7182360db")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -133189,7 +133271,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "ee665eae-c443-48bb-b25c-9128c634a86c")
-		(at 408.3325 282.264)
+		(at 423.785 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX49"
@@ -134721,7 +134803,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "efcd4d3f-a57e-43f4-a4a7-7c9e5cdc46cf")
-		(at 193.8225 339.264)
+		(at 209.275 178.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX96"
@@ -135301,7 +135383,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "f0499b30-f1c8-4af8-ae99-7ae6d3cf2b32")
-		(at 253.1975 358.264)
+		(at 268.65 197.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX111"
@@ -138993,7 +139075,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "f8f0620e-46b9-49a5-934e-bad06442433c")
-		(at 113.0725 282.264)
+		(at 128.525 121.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX35"
@@ -140457,7 +140539,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "f9dbf76f-6bd6-46b5-aef0-c038a6717993")
-		(at 389.3325 320.264)
+		(at 404.785 159.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX86"
@@ -141709,7 +141791,7 @@
 	(footprint "key-switches:SW_Gateron_LowProfile_HotSwap_PTH"
 		(layer "F.Cu")
 		(uuid "fcaf854f-d5e7-4b08-b95a-7e3a9e3d606b")
-		(at 346.2025 301.264)
+		(at 361.655 140.714)
 		(descr "Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
 		(tags "switch, low_profile, hot_swap")
 		(property "Reference" "MX67"
@@ -142289,7 +142371,7 @@
 	(footprint "K618:membrane"
 		(layer "F.Cu")
 		(uuid "fcdb1a54-3f27-414c-a8b2-18858ffb2a8f")
-		(at 333.235 241.3)
+		(at 348.6875 80.75)
 		(property "Reference" "MX9"
 			(at 0 -9.45 0)
 			(unlocked yes)
@@ -189463,8 +189545,18 @@
 		)
 	)
 	(gr_line
-		(start 47.775 278.3)
-		(end 47.775 277.8)
+		(start 490.15 338.1)
+		(end 497.65 338.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0c343855-8ce1-44fa-aeba-7b29d513d8aa")
+	)
+	(gr_line
+		(start 36.6 221.25)
+		(end 36.6 220.75)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -189473,68 +189565,48 @@
 		(uuid "0f9d307c-b419-479e-a22b-99c375003714")
 	)
 	(gr_line
-		(start 337.725 297.25)
-		(end 337.725 296.75)
+		(start 497.65 337.1)
+		(end 497.65 339.1)
 		(stroke
-			(width 0.01)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "32f67559-2ddf-4c1f-a370-3cd833ba9c05")
+		(uuid "351d2494-cee1-4aad-a7ee-f07a64442bb7")
 	)
 	(gr_line
-		(start 397.475 297.35)
-		(end 397.475 296.85)
+		(start 498.25 321)
+		(end 500.25 321)
 		(stroke
-			(width 0.01)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "373a174e-6e83-4188-951d-ee8ced627b02")
+		(uuid "35b30b1e-a3db-4de3-a766-896eeabd56bb")
 	)
 	(gr_line
-		(start 399.925 297.35)
-		(end 399.925 296.85)
+		(start 498.25 336.5)
+		(end 500.25 336.5)
 		(stroke
-			(width 0.01)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "881db5c1-15c2-4210-bee4-9c8194c2550b")
+		(uuid "38202055-cf30-4088-b3df-a47bd33ab77d")
 	)
 	(gr_line
-		(start 244.875 297.25)
-		(end 244.875 296.75)
+		(start 499.25 336.5)
+		(end 499.25 321)
 		(stroke
-			(width 0.01)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "c3993656-87c2-41dc-9c60-f42cd3f14f5b")
+		(uuid "41583f10-87ec-4279-878a-0f65a3933d88")
 	)
 	(gr_line
-		(start 335.275 297.25)
-		(end 335.275 296.75)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "d0b254f6-4659-4d0f-81f3-d9c7f99d8f5a")
-	)
-	(gr_line
-		(start 247.325 297.25)
-		(end 247.325 296.75)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "df9ca6fd-f562-49d1-8218-ad2e498e71db")
-	)
-	(gr_line
-		(start 45.325 278.3)
-		(end 45.325 277.8)
+		(start 34.15 221.25)
+		(end 34.15 220.75)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -189542,9 +189614,19 @@
 		(layer "Dwgs.User")
 		(uuid "e85b4a22-a68d-40b0-9a6e-d0cc6bee07be")
 	)
+	(gr_line
+		(start 490.15 337.1)
+		(end 490.15 339.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "fa8d3464-f5a2-4492-81c0-de52428b26d9")
+	)
 	(gr_circle
-		(center 33.25 239.3)
-		(end 35.875 239.3)
+		(center 33.15 239.45)
+		(end 35.85 239.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189555,7 +189637,7 @@
 	)
 	(gr_circle
 		(center 383.25 254.9)
-		(end 384.25 254.9)
+		(end 384.3 254.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189575,8 +189657,8 @@
 		(uuid "1069637a-0431-4489-ad59-d8885cb7927b")
 	)
 	(gr_circle
-		(center 223.4 239.3)
-		(end 226.15 239.3)
+		(center 223.35 239.35)
+		(end 226.12 239.35)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189586,8 +189668,8 @@
 		(uuid "1145bf7a-516c-48ad-a752-31949da0cc24")
 	)
 	(gr_circle
-		(center 383.25 269.7)
-		(end 384.25 269.7)
+		(center 383.25 269.9)
+		(end 384.3 269.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189596,30 +189678,9 @@
 		(layer "Edge.Cuts")
 		(uuid "1a9e0e31-9c02-4f22-a115-1d9e486b41af")
 	)
-	(gr_poly
-		(pts
-			(arc
-				(start 366.45207 339.05)
-				(mid 368.65207 341.25)
-				(end 366.45207 343.45)
-			)
-			(arc
-				(start 363.85207 343.45)
-				(mid 361.65207 341.25)
-				(end 363.85207 339.05)
-			)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "1cac6395-9378-4518-aa56-031caea85f3e")
-	)
 	(gr_circle
-		(center 361.3 248.9)
-		(end 362.3 248.9)
+		(center 360.25 248.95)
+		(end 361.3 248.95)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189640,7 +189701,7 @@
 	)
 	(gr_circle
 		(center 368.7 239.7)
-		(end 369.65 239.7)
+		(end 369.7 239.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189650,8 +189711,8 @@
 		(uuid "20f193e1-9f09-4d96-9453-68c7c595a829")
 	)
 	(gr_circle
-		(center 58.675 273.425)
-		(end 60.8 273.425)
+		(center 58.7 273.425)
+		(end 60.85 273.425)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189661,8 +189722,8 @@
 		(uuid "26417e6a-1c6d-4cf7-b95f-929a989596fb")
 	)
 	(gr_circle
-		(center 48.25 248.9)
-		(end 49.25 248.9)
+		(center 48.2 248.95)
+		(end 49.25 248.95)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189672,8 +189733,8 @@
 		(uuid "271ea2e4-63de-40a8-8876-9d5f0a03cc74")
 	)
 	(gr_circle
-		(center 325.85 235.45)
-		(end 326.85 235.45)
+		(center 325.75 235.45)
+		(end 326.8 235.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189683,8 +189744,8 @@
 		(uuid "2ec7b5fb-f381-4855-8d1f-cbd5000ec4e2")
 	)
 	(gr_circle
-		(center 265.1 363.85)
-		(end 267.85 363.85)
+		(center 265.05 363.85)
+		(end 267.82 363.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189694,8 +189755,8 @@
 		(uuid "32340148-db79-40d3-b4ab-1e7a28a2170b")
 	)
 	(gr_circle
-		(center 407.05 247.9)
-		(end 408 247.9)
+		(center 407.05 247.95)
+		(end 408.05 247.95)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189705,7 +189766,7 @@
 		(uuid "3570414d-d4b3-425c-b4ee-6cb1338e5623")
 	)
 	(gr_circle
-		(center 273.3 233.95)
+		(center 273.25 233.95)
 		(end 274.3 233.95)
 		(stroke
 			(width 0.1)
@@ -189715,9 +189776,30 @@
 		(layer "Edge.Cuts")
 		(uuid "35ce28b4-d86b-4549-b3b5-5154ba56aa21")
 	)
+	(gr_poly
+		(pts
+			(arc
+				(start 358.349734 339)
+				(mid 356.099734 341.25)
+				(end 358.349734 343.5)
+			)
+			(arc
+				(start 360.849734 343.5)
+				(mid 363.099734 341.25)
+				(end 360.849734 339)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "3a5bf3e6-7aab-43c8-ac17-d75e506d8cfb")
+	)
 	(gr_circle
 		(center 135.2 233.95)
-		(end 136.2 233.95)
+		(end 136.25 233.95)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189737,8 +189819,8 @@
 		(uuid "3d05297b-ffb9-4d8c-b904-93cc6ba2df28")
 	)
 	(gr_circle
-		(center 135.2 248.9)
-		(end 136.2 248.9)
+		(center 135.2 248.95)
+		(end 136.25 248.95)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189748,8 +189830,8 @@
 		(uuid "43c743a4-37df-4e29-9343-6c69385adfa3")
 	)
 	(gr_circle
-		(center 122.65 258.85)
-		(end 125.4 258.85)
+		(center 122.6 258.85)
+		(end 125.37 258.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189769,8 +189851,8 @@
 		(uuid "461eba26-92a3-4913-a3a9-e310f503b214")
 	)
 	(gr_line
-		(start 45.325 278.05)
-		(end 47.775 278.05)
+		(start 34.15 221)
+		(end 36.6 221)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -189780,7 +189862,7 @@
 	)
 	(gr_circle
 		(center 436.7 280.85)
-		(end 439.45 280.85)
+		(end 439.47 280.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189790,8 +189872,8 @@
 		(uuid "4da817a6-419b-4842-a357-a34e19e8e7f3")
 	)
 	(gr_circle
-		(center 95.9 300.85)
-		(end 98.65 300.85)
+		(center 94.1 300.86)
+		(end 96.87 300.86)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189801,8 +189883,8 @@
 		(uuid "4e0c63c1-c5ef-42a4-9d0a-5b7aa6855032")
 	)
 	(gr_circle
-		(center 246.1 299.8)
-		(end 248.85 299.8)
+		(center 246.05 299.9)
+		(end 248.82 299.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189823,7 +189905,7 @@
 	)
 	(gr_circle
 		(center 145.05 363.85)
-		(end 147.8 363.85)
+		(end 147.82 363.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189844,7 +189926,7 @@
 	)
 	(gr_circle
 		(center 398.7 299.9)
-		(end 401.45 299.9)
+		(end 401.47 299.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189854,8 +189936,8 @@
 		(uuid "62d1a1cd-df96-4073-9ad0-f329d09c8e30")
 	)
 	(gr_circle
-		(center 46.3 281.15)
-		(end 49.05 281.15)
+		(center 46.55 280.9)
+		(end 49.32 280.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189865,7 +189947,7 @@
 		(uuid "685e62d6-074b-46c0-969f-cdc78ce4dd69")
 	)
 	(gr_circle
-		(center 48.25 233.95)
+		(center 48.2 233.95)
 		(end 49.25 233.95)
 		(stroke
 			(width 0.1)
@@ -189876,8 +189958,8 @@
 		(uuid "6a07f2a2-4662-490e-bc6a-6679dd5ac8a0")
 	)
 	(gr_circle
-		(center 355.6 363.85)
-		(end 358.35 363.85)
+		(center 355.55 363.85)
+		(end 358.32 363.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189887,8 +189969,8 @@
 		(uuid "6a3defa5-1571-4643-97db-101c7309cf67")
 	)
 	(gr_circle
-		(center 273.3 248.9)
-		(end 274.3 248.9)
+		(center 273.25 248.95)
+		(end 274.3 248.95)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189909,7 +189991,7 @@
 	)
 	(gr_circle
 		(center 417.75 363.85)
-		(end 420.5 363.85)
+		(end 420.52 363.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189918,19 +190000,9 @@
 		(layer "Edge.Cuts")
 		(uuid "77dc4969-ca48-4e53-81f6-8fc1a2449e06")
 	)
-	(gr_line
-		(start 397.475 297.1)
-		(end 399.925 297.1)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "780a26af-6dee-484d-8521-57d8af2f526a")
-	)
 	(gr_circle
 		(center 51.3 363.85)
-		(end 54.05 363.85)
+		(end 54.07 363.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189939,19 +190011,9 @@
 		(layer "Edge.Cuts")
 		(uuid "848f8013-a4dd-4980-b2ea-69be76f3911e")
 	)
-	(gr_line
-		(start 244.875 297)
-		(end 247.325 297)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "88c7048f-e269-4fb8-9e51-2d777c0bc4ed")
-	)
 	(gr_circle
-		(center 34.2 312.95)
-		(end 36.95 312.95)
+		(center 34.2 313)
+		(end 36.97 313)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -189961,7 +190023,7 @@
 		(uuid "8a72eaf2-b69b-4bd2-91a0-7d90e82f812e")
 	)
 	(gr_circle
-		(center 100.75 235.45)
+		(center 100.7 235.45)
 		(end 101.75 235.45)
 		(stroke
 			(width 0.1)
@@ -189992,8 +190054,8 @@
 		(uuid "908e6562-6d9c-4a24-bc35-74f39326283d")
 	)
 	(gr_circle
-		(center 417.75 256.3)
-		(end 418.75 256.3)
+		(center 417.75 256.35)
+		(end 418.8 256.35)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190003,8 +190065,8 @@
 		(uuid "95e052c3-7ff2-4cfa-81b8-4d14560ddf2f")
 	)
 	(gr_circle
-		(center 136.9 318.85)
-		(end 139.65 318.85)
+		(center 136.85 318.85)
+		(end 139.62 318.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190035,7 +190097,7 @@
 	)
 	(gr_circle
 		(center 193.85 318.85)
-		(end 196.6 318.85)
+		(end 196.62 318.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190045,8 +190107,8 @@
 		(uuid "9bddf984-4123-4c37-801a-9fac8918a30b")
 	)
 	(gr_circle
-		(center 451.225 331.875)
-		(end 453.6 331.875)
+		(center 451.25 331.85)
+		(end 453.65 331.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190065,19 +190127,9 @@
 		(layer "Edge.Cuts")
 		(uuid "ae553daa-aedc-4ece-b630-55ca70468498")
 	)
-	(gr_line
-		(start 335.275 297)
-		(end 337.725 297)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bdc292a0-99e7-4965-8ee4-a9fa96dd979f")
-	)
 	(gr_circle
-		(center 185 239.3)
-		(end 187.75 239.3)
+		(center 184.95 239.35)
+		(end 187.72 239.35)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190097,8 +190149,8 @@
 		(uuid "bf0ab959-5200-42bc-85b6-9af64174a00e")
 	)
 	(gr_circle
-		(center 361.3 233.95)
-		(end 362.3 233.95)
+		(center 360.25 233.95)
+		(end 361.3 233.95)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190108,8 +190160,8 @@
 		(uuid "c4528f5e-5260-4595-ac3e-bf69176dbb6b")
 	)
 	(gr_circle
-		(center 336.5 299.8)
-		(end 339.25 299.8)
+		(center 336.55 299.9)
+		(end 339.32 299.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190129,8 +190181,8 @@
 		(uuid "e038b911-bfb4-45fa-ac49-c4b35a312731")
 	)
 	(gr_circle
-		(center 355.5 258.85)
-		(end 358.25 258.85)
+		(center 355.55 258.85)
+		(end 358.32 258.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190140,8 +190192,8 @@
 		(uuid "eb0d08f1-68cc-4819-9ccc-ed9003ab77f6")
 	)
 	(gr_circle
-		(center 452.25 269.7)
-		(end 453.25 269.7)
+		(center 452.25 269.9)
+		(end 453.3 269.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190152,7 +190204,7 @@
 	)
 	(gr_circle
 		(center 452.25 254.9)
-		(end 453.25 254.9)
+		(end 453.3 254.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190160,6 +190212,30 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "fe0f6896-500e-4ab0-b359-129d34e9965a")
+	)
+	(gr_text "15.5 (7.75)"
+		(at 499.9 329.3 0)
+		(layer "Dwgs.User")
+		(uuid "381231ab-e11d-4ea8-9865-5d96f23a651d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "7.5\n(3.75)"
+		(at 493.8 341.25 0)
+		(layer "Dwgs.User")
+		(uuid "fcf2d56a-3da6-4cf3-9ed1-e6b706636be9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
 	)
 	(segment
 		(start -108.59 67.4395)
@@ -191979,24 +192055,6 @@
 			"efcd4d3f-a57e-43f4-a4a7-7c9e5cdc46cf" "f0499b30-f1c8-4af8-ae99-7ae6d3cf2b32"
 			"f8f0620e-46b9-49a5-934e-bad06442433c" "f9dbf76f-6bd6-46b5-aef0-c038a6717993"
 			"fcaf854f-d5e7-4b08-b95a-7e3a9e3d606b" "fcdb1a54-3f27-414c-a8b2-18858ffb2a8f"
-		)
-	)
-	(group ""
-		(uuid "1829c4d7-771e-4c9a-9367-4315207ecc4d")
-		(members "88c7048f-e269-4fb8-9e51-2d777c0bc4ed" "c3993656-87c2-41dc-9c60-f42cd3f14f5b"
-			"df9ca6fd-f562-49d1-8218-ad2e498e71db"
-		)
-	)
-	(group ""
-		(uuid "202d34c7-5f0b-47c7-a8ab-b2d769e3ca0d")
-		(members "32f67559-2ddf-4c1f-a370-3cd833ba9c05" "bdc292a0-99e7-4965-8ee4-a9fa96dd979f"
-			"d0b254f6-4659-4d0f-81f3-d9c7f99d8f5a"
-		)
-	)
-	(group ""
-		(uuid "7c77b024-ea95-431c-8b60-3c45fb806931")
-		(members "373a174e-6e83-4188-951d-ee8ced627b02" "780a26af-6dee-484d-8521-57d8af2f526a"
-			"881db5c1-15c2-4210-bee4-9c8194c2550b"
 		)
 	)
 	(group ""

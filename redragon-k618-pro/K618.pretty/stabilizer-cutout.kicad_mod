@@ -56,8 +56,8 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy 3.7 -2.4) (xy 3.7 7.7) (xy -3.7 7.7) (xy -3.7 -2.4) (xy -1.925 -2.4) (xy -1.925 -7.7) (xy 1.925 -7.7)
-			(xy 1.925 -2.4)
+			(xy 1.95 -2.4) (xy 1.95 -7.75) (xy -1.95 -7.75) (xy -1.95 -2.4) (xy -3.75 -2.4) (xy -3.75 7.75) (xy 3.75 7.75)
+			(xy 3.75 -2.4)
 		)
 		(stroke
 			(width 0)
@@ -65,7 +65,7 @@
 		)
 		(fill yes)
 		(layer "Edge.Cuts")
-		(uuid "daa0d3b8-ebd7-4013-ba42-482e783b6dfa")
+		(uuid "084d33af-d560-481e-9fd9-c6dba8e32b42")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -8.5 0)
