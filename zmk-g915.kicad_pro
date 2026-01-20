@@ -547,10 +547,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/",
+      "plot": "logitech-g915/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Step_Files/Keyboard_60%.step",
+      "step": "Step_Files/Keyboard_60%.stl",
       "svg": "",
       "vrml": ""
     },
