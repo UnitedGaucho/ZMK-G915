@@ -13,6 +13,8 @@ fp-info-cache
 *_gerbers
 *.DS_Store*
 *.lck
+*.svg
+*.dxf
 
 # Netlist files (exported from Eeschema)
 *.net
