@@ -5445,9 +5445,9 @@
 		)
 		(uuid "d8815440-af23-46a6-9910-b658ae678860")
 	)
-	(text "TODO\n-Pin assignments\n-Status LEDs\n-Volume wheel encoder:\n	Choose part/rev eng donor part\n	Review header selection\n-Review reset necessity/method\n-Review parts/BOM\n-USB-C PD??\n	No real benefit. Battery capcaity is\n	low so max charging current is low.\n-Higher current charging IC\n-Status LED resistor values\n-Calculate max operating current consumption\n	and review charger I termination res val"
+	(text "TODO\n-Pin assignments\n-Status LEDs\n-Volume wheel encoder:\n	Choose part/rev eng donor part\n	Review header selection\n-Review reset necessity/method\n-Review parts/BOM\n-USB-C PD??\n	No real benefit. Battery capcaity is\n	low so max charging current is low.\n-Higher current charging IC\n-Status LED resistor values\n-Calculate max operating current consumption\n	and review charger I termination res val\n-Choose between nRF52840 and nRF52833"
 		(exclude_from_sim no)
-		(at 151.892 81.026 0)
+		(at 148.59 84.074 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10673,7 +10673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7F"
+		(property "Value" "4.7uF"
 			(at 21.59 60.96 0)
 			(effects
 				(font
@@ -14049,7 +14049,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac3c9a51-e21a-4314-8800-100f67c9dc7a")
 		(property "Reference" "C16"
-			(at 124.46 59.0613 0)
+			(at 124.46 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14057,8 +14057,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7F"
-			(at 124.46 61.6013 0)
+		(property "Value" "4.7uF"
+			(at 124.46 60.9662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16081,7 +16081,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff7ff935-4f3d-44dd-a1aa-f0f2bbfecd8e")
 		(property "Reference" "C18"
-			(at 134.62 59.0613 0)
+			(at 134.62 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,8 +16089,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7F"
-			(at 134.62 61.6013 0)
+		(property "Value" "4.7uF"
+			(at 134.62 60.9662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16210,7 +16210,7 @@
 				(hide yes)
 			)
 		)
-		(pin "USB_D-" bidirectional
+		(pin "USB_D-" passive
 			(at 73.66 29.21 0)
 			(uuid "02aad598-0acd-4fef-80fa-27d25e057f0c")
 			(effects
@@ -16220,7 +16220,7 @@
 				(justify right)
 			)
 		)
-		(pin "VBATT_nRF" output
+		(pin "VBATT_nRF" passive
 			(at 73.66 35.56 0)
 			(uuid "df9a10dd-cbb3-40ad-b199-5885e0981522")
 			(effects
@@ -16230,7 +16230,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_D+" bidirectional
+		(pin "USB_D+" passive
 			(at 73.66 31.75 0)
 			(uuid "06d82315-ade7-4161-a767-e4e3216ab1cd")
 			(effects
@@ -16240,7 +16240,7 @@
 				(justify right)
 			)
 		)
-		(pin "VBUS" output
+		(pin "VBUS" passive
 			(at 73.66 25.4 0)
 			(uuid "40a7ea72-2d80-4bff-844f-d37076587743")
 			(effects
@@ -16250,7 +16250,7 @@
 				(justify right)
 			)
 		)
-		(pin "CHG_OUT" output
+		(pin "CHG_OUT" passive
 			(at 73.66 22.86 0)
 			(uuid "f09c76da-6134-4fb6-a075-830a62d0e045")
 			(effects

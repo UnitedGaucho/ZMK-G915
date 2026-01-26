@@ -5812,7 +5812,7 @@
 		(uuid "e4853dd8-875d-45ee-a1c9-3e31ff5eac59")
 	)
 	(hierarchical_label "USB_D+"
-		(shape bidirectional)
+		(shape passive)
 		(at 81.28 190.5 0)
 		(effects
 			(font
@@ -5823,7 +5823,7 @@
 		(uuid "17f07651-6e4c-490d-bcbe-d3b1b12fd2df")
 	)
 	(hierarchical_label "USB_D-"
-		(shape bidirectional)
+		(shape passive)
 		(at 81.28 186.69 0)
 		(effects
 			(font
@@ -5834,7 +5834,7 @@
 		(uuid "20c3eca9-4ee5-4ad4-8051-650dabdfebe8")
 	)
 	(hierarchical_label "CHG_OUT"
-		(shape output)
+		(shape passive)
 		(at 40.64 190.5 0)
 		(effects
 			(font
@@ -5845,7 +5845,7 @@
 		(uuid "2243d8de-9d89-428b-88da-6750c97a424f")
 	)
 	(hierarchical_label "VBATT_nRF"
-		(shape output)
+		(shape passive)
 		(at 115.57 186.69 0)
 		(effects
 			(font
@@ -5867,7 +5867,7 @@
 		(uuid "8163a3ae-f3e6-4328-950b-f34945dc3a0d")
 	)
 	(hierarchical_label "VBUS"
-		(shape output)
+		(shape passive)
 		(at 40.64 186.69 0)
 		(effects
 			(font
@@ -9035,7 +9035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7F"
+		(property "Value" "4.7uF"
 			(at 95.25 132.08 0)
 			(effects
 				(font
