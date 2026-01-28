@@ -4571,7 +4571,7 @@
 		)
 		(uuid "1298c800-4e75-4af8-9dc1-31da60e03153")
 	)
-	(text "NOTE:\nKey instance sheet numbers (see 'Schematic Hierarchy' tree. ctrl+H if not visible) are used to ensures keys and associated\ncomponents are annotated in an order that is compatible with kbplacer.\n\nThis hack was needed becuase kbplacer uses ref des's to determine which components go where. Re-numbering the instance sheets was the\neasiest way to get it all to work together with the least amount of effort.\nWith this in mind, adding or removing keys will require manual re-numbering."
+	(text "NOTE:\nKey instance sheet numbers (see 'Schematic Hierarchy' tree. ctrl+H if not visible) are used to ensure keys and associated\ncomponents are annotated in an order that is compatible with kbplacer.\n\nThis hack was needed becuase kbplacer uses ref des's to determine which components go where. Re-numbering the instance sheets was the\neasiest way to get it all to work together with the least amount of effort.\nWith this in mind, adding or removing keys will require manual re-numbering."
 		(exclude_from_sim no)
 		(at 178.054 173.736 0)
 		(effects
