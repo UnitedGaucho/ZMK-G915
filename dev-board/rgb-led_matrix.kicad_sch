@@ -6895,7 +6895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "keyboard:R_0402_1005Metric"
 			(at 219.71 120.65 0)
 			(effects
 				(font
@@ -7367,7 +7367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "keyboard:R_0402_1005Metric"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "keyboard:R_0402_1005Metric"
 			(at 152.4 57.15 0)
 			(effects
 				(font
@@ -8720,7 +8720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "keyboard:R_0402_1005Metric"
 			(at 256.54 57.15 0)
 			(effects
 				(font
@@ -9942,7 +9942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "keyboard:R_0402_1005Metric"
 			(at 227.33 120.65 0)
 			(effects
 				(font
@@ -10283,7 +10283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "keyboard:R_0402_1005Metric"
 			(at 256.54 45.72 0)
 			(effects
 				(font
@@ -10419,7 +10419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "keyboard:R_0402_1005Metric"
 			(at 187.198 118.11 0)
 			(effects
 				(font
